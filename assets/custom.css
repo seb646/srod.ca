@@ -1,7 +1,143 @@
-html{
-  font-family: 'Roboto', sans-serif !important;
+/* Base Structure
+ * --------------------------------------- */
+body{
+	font-family: Source Sans Pro;
+	color: #333;
+	margin: 0;
+	padding: 0;
 }
-hr{
-  border-bottom: 1px solid #dae1e7;
-  height: 1 !important;
+.hero.is-fullheight{
+  padding: 0 200px;
+}
+.header{
+  background: rgba(22, 23, 23, 1) !important;
+}
+.nav{
+  box-shadow: none !important;
+  padding-top: 20px;
+}
+.hero-foot{
+  height: 70px;
+}
+.hero.is-danger {
+    background-color: #8f2222 !important;
+}
+footer{
+  padding: 3rem !important;
+}
+footer.is-dark{
+  background: #34343E !important;
+}
+
+/* Text Styling
+ * --------------------------------------- */
+h1,h2,h3,h4,h5{
+	font-weight: bold !important;
+	margin: 0 !important;
+}
+
+small{
+	font-weight: bold;
+	letter-spacing: 1px;
+  font-size: .9em !important;
+}
+
+h1{
+	font-size: 3em !important;
+	font-weight: bold !important;
+}
+h2{
+	font-size: 2em !important;
+	font-weight: lighter !important;
+	padding-bottom: 20px !important;
+}
+h3{
+	font-size: 1.5em !important;
+}
+p{
+	font-size: 16.5px;
+	color: #757575;
+	font-weight: 300;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+.is-danger p,
+a.is-danger{
+	color: #fff;
+}
+.card-content p{
+	color: #444;
+}
+.card-content a{
+	color: #e81818;
+}
+a.school-link{
+	position: relative;
+	display: block;
+	font-size: 20px;
+	font-family: Raleway;
+	letter-spacing: inherit;
+	width: 108%;
+	background: none;
+	transition: all .2s linear;
+	padding: 15px 0px 15px 60px;
+}
+a.school-link span{
+	position: relative;
+	z-index: 2;
+}
+a.school-link:hover:before {
+    width: 100%;
+		color: #fff !important;
+}
+a.school-link:before{
+	content: '';
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #6f0000;
+	transition: width 400ms ease-out;
+	z-index: 1;
+}
+
+/* Typed Plugin
+ * --------------------------------------- */
+.typed{
+	color: #e43a3a;
+}
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+
+/* Small Screen Config
+ * --------------------------------------- */
+@media only screen and (max-width: 500px) {
+		.hero{
+			padding:initial;
+		}
+		.nav{
+			padding-right: 20px;
+		}
 }

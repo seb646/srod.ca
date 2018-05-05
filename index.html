@@ -1,41 +1,161 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Sebastian Rodriguez</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/custom.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.min.css" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700|Source+Sans+Pro:300,700|Roboto+Slab">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/typed.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+    		$(".typed").typed({
+    			strings: ["student.", "designer.", "doughnut lover.", "journalist.", "web developer.", "bacon enthusiast.", "triad of the Video Game Design Club."],
+          backDelay: 1400,
+          loop: true,
+          shuffle: true
+    		});
+    	});
+    </script>
   </head>
   <body>
-    <div class="container mx-auto mt-8 mb-8 pt-8 pb-8 w-5/6 lg:w-1/2 align-middle font-light">
-      <center>
-        <a class="h-32 w-32 mb-8 mt-2 rounded-full flex items-center justify-center" href="/">
-          <img class="h-32 w-32 rounded-full flex items-center justify-center" src="assets/profile.jpg"/>
-        </a>
-      </center>
-
-      <p class="text-justify text-grey-darkest mb-6 pt-2 leading-normal">Hi there! Welcome to my website! I'm <b>Sebastian Rodriguez</b>, a 17-year-old high school student at <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.browning.edu/">The Browning School</a> in New York City.</p>
-
-      <p class="text-justify text-grey-darkest mb-6 leading-normal">As someone who is passionate about computer science, I have learned a great deal about the different languages and software available. Some of these include HTML/CSS, PHP, Ruby, MySQL, <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com">Adobe</a> <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com/products/photoshop.html">Photoshop</a> and <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com/products/illustrator.html">Illustrator</a>, <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.sketchapp.com/">Sketch</a>, and <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.autodesk.com/products/fusion-360/overview">Autodesk Fusion 360</a>. I am also comfortable working in several different environments, including MacOS, Windows, IOS, Android, and Linux-based terminals.</p>
-
-      <p class="text-justify text-grey-darkest mb-4 leading-normal">This website is hosted on a cluster of three <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.raspberrypi.org/">Raspberry Pi</a> as project exploring computing systems and networking. If you want to setup your own home web server using a Pi, follow <a class="text-blue no-underline hover:underline" href="/tutorial.html">my guide</a>.To see more of my projects, check out my GitHub!</p>
-
-      <div class="flex flex-wrap pt-6">
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-grey-light text-grey-darkest text-center no-underline block rounded hover:bg-grey py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="mailto:me@seb646.com"><i class="fas fa-at"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-orange text-grey-lightest text-center no-underline block rounded hover:bg-orange-dark py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="schedule.html"><i class="far fa-calendar-alt"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-blue text-white text-center no-underline block rounded hover:bg-blue-dark py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="https://www.linkedin.com/in/seb646/"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-black text-white text-center no-underline block rounded hover:bg-grey-darkest py-2 px-4" target="_blank" href="https://github.com/seb646"><i class="fab fa-github"></i></a>
+    <section class="hero is-dark header is-fullheight">
+      <div class="hero-head">
+        <header class="nav">
+          <div class="container">
+            <div class="nav-right">
+              <a class="icon" href="https://www.linkedin.com/in/sebastian-p-rodriguez/">
+                <i class="fa fa-linkedin"></i>
+              </a>&nbsp;&nbsp;
+              <a class="icon" href="https://github.com/seb646">
+                <i class="fa fa-github"></i>
+              </a>&nbsp;&nbsp;
+              <a class="icon" href="mailto:me@srodriguez.xyz">
+                <i class="fa fa-send"></i>
+              </a>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="hero-body">
+        <div class="container">
+          <small>Hi,</small>
+          <h1>I'm Sebastian<h1>
+          <h2>and I am a <span class="typed"></span></h2>
         </div>
       </div>
+      <div class="hero-foot has-text-centered">
+        <a href="#work"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <section class="hero is-fullheight" id="work">
+      <div class="hero-body">
+        <div class="container">
+          <h2>What I do...</h2>
+          <a style="color: initial;" href="http://tardigrade.group"><h3>Co-Founder, The Tardigrade Group</h3></a>
+          <p style="margin-bottom:30px !important">As Co-Founder and Chief Operating Officer of The Tardigrade Group, Sebastian is responsible for overseeing all of company's non-financial operations, with several Vice Presidents reporting directly to him. Sebastian is a key member of the company's leadership team and a liaison between the Board, Tardigrade's partners, and Tardigrade's staff.</p>
+          <div class="columns">
+            <div class="column">
+              <a style="color: initial;" href="http://go-round.org"><h3>Chief Design Officer, GoRound</h3></a>
+              <p>As Chief Design Officer at GoRound, an application startup, Sebastian oversees a design team comprised of several UI/UX designers and photographers. Sebastian is responsible for designing the application, website, and any promotional images.</p>
+            </div>
+            <div class="column">
+              <a style="color: initial;" href="http://scouterapp.com"><h3>Co-Founder, Scouter</h3></a>
+              <p>As Co-Founder of Scouter, Sebastian is responsible for all of the application's day-to-day operations. Sebastian also maintains Scouter's web infrastructure and assists in the application's design and development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot has-text-centered">
+        <a href="#school" style="color:initial;"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <section class="hero is-danger is-medium" id="school">
+      <div class="hero-body">
+        <div class="container" style="width: 1152px;">
+          <div class="columns">
+            <div class="column is-one-third">
+              <h3>The Browning School</h3>
+              <p>New York City</p>
+            </div>
+            <div class="column">
+              <ul>
+                <li><a id="compsci" class="school-link"><span>Introduction to Computer Science</span></a></li>
+                <li><a id="vdg" class="school-link"><span>The Video Game Design Club</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot has-text-centered">
+        <a href="#top"><i class="fa fa-chevron-up"></i></a>
+      </div>
+    </section>
+
+    <div class="modal" id="compsci-modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <div class="card">
+          <div class="card-content">
+            <h2>Introduction to Computer Science</h2>
+            <p><b>Teacher(s):</b> <a href="http://shiffman.net/">Dan Shiffman</a>, <a href="http://www.edsaber.info/">Saber Khan</a></p>
+            <br>
+            <p>This computer science course was fouces heavily on the p5.js JavaScript library created by Dan Shiffman. This library was based on Processing JS and was created to teach students and other code-enthusiasts how to code in JavaScript.</p>
+            <br>
+            <a href="/browning/page_one"><b>Moving Triangles</b></a>
+            <p>A p5.js project that follows the mouse's location with triangles that have a fixed base.</p>
+            <br>
+            <a href="/browning/page_three"><b>The Equalizer</b></a>
+            <p>A p5.js project that emulates music equalizer. (no sound)</p>
+            <br>
+            <a href="/browning/page_two"><b>Intersecting Bubbles</b></a>
+            <p>A p5.js project that has random ovals and rectangles appearing. Whent he mouse is pressed, the shapes change color.</p>
+            <br>
+            <a href="/browning/page_four"><b>Transformers</b></a>
+            <p>A p5.js project with bubbles appearing randomly on the canvas. When the bubbles touch, one is deleted while the other is transformed into a square.</p>
+            <br>
+            <a href="/browning/final_project"><b>Grocery List</b></a>
+            <p>An Angular JS project that captures and stores information in the form of a selectable list. The items stored can be marked as complete and then removed.</p>
+          </div>
+          <div class="modal-card-foot">
+            <a class="button is-danger" href="http://p5js.org">p5.js</a>
+            <a class="button is-danger" href="http://angularjs.org">Angular JS</a>
+          </div>
+        </div>
+      </div>
+      <button class="modal-close"></button>
+    </div>
+
+    <div class="modal" id="vdg-modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <div class="card">
+          <div class="card-content">
+            <h2>Video Game Design Club</h2>
+            <p>The Video Game Design Club was founded in 2017 by Co-Presidents <a href="http://mkelly.browning.edu">Maxwell Kelly</a> and Sebastian Rodriguez, with faculty advisor <a href="http://www.edsaber.info/">Saber Khan</a>. The club was centered around the idea of educating Browning students on Video Game Design. The club's leadership later expanded to include retired Club Penguin gold member <a href="http://alaffont.browning.edu">Alfonso Laffont</a>.</p>
+          </div>
+        </div>
+      </div>
+      <button class="modal-close"></button>
     </div>
   </body>
+  <script>
+    $("#compsci").click(function() {
+      $("#compsci-modal").toggleClass("is-active");
+    });
+    $("#vdg").click(function() {
+      $("#vdg-modal").toggleClass("is-active");
+    });
+  </script>
+  <script src="http://bulma.io/javascript/bulma.js"></script>
 </html>
