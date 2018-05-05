@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Sans-serif;
+  color: #666666;
+  line-height: 1.5em;
+  position: relative;
+}
+
+.wrapper {
+  transition-duration: 0.5s;
+  transition-timing-function: swing;
+  background-color: white;
+  position: relative;
+}
+
+.wrapper.open {
+  transform: translateX(250px) translateY(50px);
+  -webkit-transform: translateX(250px) translateY(50px);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 100px;
+}
+
+.wrapper section h1 {
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #CECECE;
+  padding-bottom: 10px;
+}
+
+.wrapper section h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.wrapper section p {
+  margin-bottom: 40px;
+}
+
+
+.navOpen {
+  overflow: hidden;
+}
+
+.openNav {
+  transition-duration: 0.5s;
+  transition-timing-function: swing;
+  width: 50px;
+  height: 50px;
+  background: #FFF;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
+  border-radius: 90px;
+}
+
+.openNav:hover {
+  cursor: pointer;
+}
+
+.openNav .icon {
+  transition-duration: 0.2s;
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #0098F1;
+  top: 24px;
+  left: 10px;
+}
+
+.openNav .icon:before,
+.openNav .icon:after {
+  transition-duration: 0.5s;
+  background-color: #0098F1;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 3px;
+  left: 0px;
+}
+
+.openNav .icon:before {
+  top: -8px;
+}
+
+.openNav .icon:after {
+  top: 8px;
+}
+
+.openNav.open {
+  transform: translateX(250px) translateY(50px);
+  -webkit-transform: translateX(250px) translateY(50px);
+}
+
+.openNav.open .icon {
+  background-color: transparent;
+}
+
+.openNav.open .icon:before,
+.openNav.open .icon:after {
+  top: 0;
+}
+
+.openNav.open .icon:before {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 30px;
+  background-color: #CA3A3A;
+}
+
+.openNav.open .icon:after {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 30px;
+  background-color: #CA3A3A;
+}
+
+nav {
+  background-color: #006D96;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+nav ul {
+  width: 250px;
+  margin-top: 50px;
+}
+
+nav ul:hover li {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+nav ul li {
+  transition-duration: 0.25s;
+  display: block;
+  padding: 5px 40px;
+  color: white;
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.header {
+    background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/05/New-York-City-Wallpapers-Free-Download-HD.jpg");
+    background-position: 0 -100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.non-fixed {
+  position: initial !important;
+  background-attachment: initial !important;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+
+.nav-item {text-decoration:none;}
+
+
+@media (max-width: 768px) {
+  .header{background-position: 0 0;}
+}
