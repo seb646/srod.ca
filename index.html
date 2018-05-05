@@ -1,41 +1,151 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Sebastian Rodriguez</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/custom.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  </head>
-  <body>
-    <div class="container mx-auto mt-8 mb-8 pt-8 pb-8 w-5/6 lg:w-1/2 align-middle font-light">
-      <center>
-        <a class="h-32 w-32 mb-8 mt-2 rounded-full flex items-center justify-center" href="/">
-          <img class="h-32 w-32 rounded-full flex items-center justify-center" src="assets/profile.jpg"/>
-        </a>
-      </center>
-
-      <p class="text-justify text-grey-darkest mb-6 pt-2 leading-normal">Hi there! Welcome to my website! I'm <b>Sebastian Rodriguez</b>, a 17-year-old high school student at <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.browning.edu/">The Browning School</a> in New York City.</p>
-
-      <p class="text-justify text-grey-darkest mb-6 leading-normal">As someone who is passionate about computer science, I have learned a great deal about the different languages and software available. Some of these include HTML/CSS, PHP, Ruby, MySQL, <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com">Adobe</a> <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com/products/photoshop.html">Photoshop</a> and <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com/products/illustrator.html">Illustrator</a>, <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.sketchapp.com/">Sketch</a>, and <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.autodesk.com/products/fusion-360/overview">Autodesk Fusion 360</a>. I am also comfortable working in several different environments, including MacOS, Windows, IOS, Android, and Linux-based terminals.</p>
-
-      <p class="text-justify text-grey-darkest mb-4 leading-normal">This website is hosted on a cluster of three <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.raspberrypi.org/">Raspberry Pi</a> as project exploring computing systems and networking. If you want to setup your own home web server using a Pi, follow <a class="text-blue no-underline hover:underline" href="/tutorial.html">my guide</a>.To see more of my projects, check out my GitHub!</p>
-
-      <div class="flex flex-wrap pt-6">
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-grey-light text-grey-darkest text-center no-underline block rounded hover:bg-grey py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="mailto:me@seb646.com"><i class="fas fa-at"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-orange text-grey-lightest text-center no-underline block rounded hover:bg-orange-dark py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="schedule.html"><i class="far fa-calendar-alt"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-blue text-white text-center no-underline block rounded hover:bg-blue-dark py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="https://www.linkedin.com/in/seb646/"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-black text-white text-center no-underline block rounded hover:bg-grey-darkest py-2 px-4" target="_blank" href="https://github.com/seb646"><i class="fab fa-github"></i></a>
-        </div>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sebastian Rodriguez</title>
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+</head>
+<body>
+<div class="main-bk">
+  <div class="row">
+    <div class="small-8 small-centered columns">
+      <div class="head">
+        <div class="avatar"></div>
+        <h2 class="name">Sebastian Rodriguez</h2>
+        <p class="sub">16yr old from NYC &nbsp;-&nbsp; UI/UX Designer &nbsp;-&nbsp; Entrepreneur &nbsp;-&nbsp; Journalist</p>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+
+<br><br>
+<div class="path-container">
+  <div class="row path-item" id="tardigrade">
+    <div class="large-7 push-5 columns">
+      <div class="circle circle-left tardigrade"></div>
+    </div>
+    <div class="large-5 pull-7 columns path-text left">
+      <h3>The Tardigrade Group</h3>
+      <h5 class="position">Co-Founder & Chief Operating Officer (2017-present)</h5>
+      <p>Tardigrade is a corporation that aids the growth and development of teenage run startups. The company is aimed at helping students manifest their creative ideas into a profitable business.</p>
+      <a target="_blank" href="http://tardigrade.group">Visit Tardigrade's website »</a>
+    </div>
+  </div>
+  <div class="row path-item" id="goround">
+    <div class="large-7 columns">
+      <div class="circle circle-right right go-round"></div>
+    </div>
+    <div class="large-5 columns path-text right">
+      <h3>GoRound</h3>
+      <h5 class="position">Chief Design Officer (2016-present)</h5>
+      <p>GoRound is an startup company that is developing restaurant finding application. That application was created by a group of teenagers and uses an algorithm that learns the user's preferences without external ratings or reviews.</p>
+      <a target="_blank" href="http://go-round.org">Visit GoRound's website »</a>
+    </div>
+  </div>
+  <div class="row path-item" id="oneplus">
+    <div class="large-7 push-5 columns">
+      <div class="circle circle-left oneplus"></div>
+    </div>
+    <div class="large-5 pull-7 columns path-text left">
+      <h3>OnePlus</h3>
+      <h5 class="position">Software Alpha Tester (2016)</h5>
+      <p>OnePlus is a Chinese phone manufacturing startup company that develops high end phones for low prices. Testing the fusion of OxygenOS and HydrogenOS as well as the integration of Android N with OnePlus software.</p>
+      <a target="_blank" href="http://oneplus.net">Visit OnePlus' website »</a>
+    </div>
+  </div>
+  <div class="row path-item" id="bacon">
+    <div class="large-7 columns">
+      <div class="circle circle-right right bacon"></div>
+    </div>
+    <div class="large-5 columns path-text right">
+      <h3>United Church of Bacon</h3>
+      <h5 class="position">Baconist (2017-present)</h5>
+      <p>The United Church of Bacon is an organization of skeptics and atheists who disagree with modern definitions of religion. Baconists, or friars, can perform legal weddings and ceremonies.</p>
+      <a target="_blank" href="http://praisebacon.org">Visit the Church of Bacon's website »</a>
+    </div>
+  </div>
+  <div class="row path-item" id="snapchat">
+    <div class="large-7 push-5 columns">
+      <div class="circle circle-left snapchat"></div>
+    </div>
+    <div class="large-5 pull-7 columns path-text left">
+      <h3>Snapchat</h3>
+      <h5 class="position">Freelance Geofilter Designer (2017)</h5>
+      <p>Snapchat Geofilters are unique overlays that share a location through a piece of art that represents the community.</p>
+      <a data-toggle="geofilters">View my geofilters</a> &nbsp;|&nbsp; <a target="_blank" href="http://snapchat.com">Visit Snapchat's website »</a>
+    </div>
+  </div>
+  <div class="row path-item" id="browning">
+    <div class="large-7 columns">
+      <div class="circle circle-right right browning"></div>
+    </div>
+    <div class="large-5 columns path-text right">
+      <h3>The Browning School</h3>
+      <h5 class="position">Student Council Representative (2013-14, 2015-16)</h5>
+      <p>The Browning School Student Council is a student-run government that makes minor administrative decisions (bake sales, dress down days, etc.) for the students of the school.</p>
+      <h5 class="position">Grytte Journalist (2016-present)</h5>
+      <p style="margin-bottom:10px;">The Grytte is a student-run newspaper, founded in 1897, that aims to disseminate current, relevant news throughout the Browning community.</p>
+      <ul style="margin-bottom: 25px;">
+        <li>Recipient of <a href="http://cspa.columbia.edu/">Columbia Scholastic Press Association</a>'s Gold Medal (2016)</li>
+      </ul>
+      <a target="_blank" href="http://browning.edu">Visit Browning's website »</a>
+    </div>
+  </div>
+  <span class="line hide-for-small"></span>
+</div>
+
+<footer>
+  <div class="row">
+    <div class="footer-links">
+      <a target="_blank" href="https://snapchat.com/add/sebastian646"><i class="fa fa-snapchat-ghost"></i></a>
+      <a target="_blank" href="https://twitter.com/seb646"><i class="fa fa-twitter"></i></a>
+      <a target="_blank" href="https://www.instagram.com/seb646/"><i class="fa fa-instagram"></i></a>
+      <a target="_blank" href="https://www.reddit.com/user/seb646/"><i class="fa fa-reddit-alien"></i></a>
+      <a target="_blank" href="https://github.com/seb646"><i class="fa fa-github"></i></a>
+      <a target="_blank" href="mailto:me@srodriguez.xyz"><i class="fa fa-envelope"></i></a>
+      <a onclick="schedule()"><i class="fa fa-calendar"></i></a>
+    </div>
+    <p>© 2016-2017 <b>Sebastian Rodriguez</b>.</p>
+  </div>
+</footer>
+
+<div class="small reveal" id="geofilters" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+  <h3 style="text-align: center">Snapchat Geofilters</h3>
+  <div class="row">
+    <div class="large-3">
+      <img src="img/filter_browning.png"/><br>
+      <p style="text-align: center;">
+        <a href="http://browning.edu"><b>The Browning School</b></a><br>
+        New York, New York, USA<br>
+        <span style="font-size:15px;">(<a href="img/filter_browning.png" target="_blank">View Image</a>)</span>
+      </p>
+    </div>
+  </div>
+  <button class="close-button" data-close aria-label="Close reveal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+<script>
+    function schedule() {
+        window.open("schedule.html", "", "width=1100,height=700");
+    }
+    $(document).ready(function() {
+        $(document).foundation();
+    })
+    function doughnut() {
+        window.open("js/p5js/examples/doughnut.html", "", "width=550,height=450");
+    }
+</script>
+</body>
 </html>
