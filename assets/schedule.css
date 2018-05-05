@@ -1,0 +1,46 @@
+body {background: #FFF; margin: margin: 0 auto 15px auto; padding: 0; min-width: 807px;}
+#container {margin: 10px auto 0 auto; width: 11in; background-color: #fff; position: relative;}
+#document {padding: 20px;}
+#settings {display: none;}
+}
+
+@page {
+size: US-Letter landscape; margin: 20pt;
+}
+
+* {prince-bookmark-level: none}
+
+body {
+page-break-before: always; prince-bookmark-level: 1;  prince-bookmark-label: string(doctitle); prince-page-group: start; counter-reset: page 1;
+}
+
+title { string-set: doctitle content() }
+
+pre {
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+dl.dataform {margin: 0;}
+dl.dataform dt {float: left; clear: left}
+dl.dataform dt, dl.dataform dd {margin-top: 0; margin-bottom: 0;}
+
+.clear:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+
+
+#document{font:62.5%/1.6 "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif}#document *{padding:0;margin:0}#document .blockdata{padding:3px}#document #header{margin-bottom:6px}#document #header h1{text-align:center;font-size:2.3em}#document #header h2{text-align:center;font-size:1.2em}#document #header p{width:235px;float:left}#document #header .phone{margin-left:15px}#document #paragraphs{margin-left:35px}#document .schedule-block{position:relative;width:100%;page-break-after:always;margin-bottom:5em}#document #labels{border-right:1px solid #333;margin-left:35px;font-size:1.2em;list-style:none;background:#112;color:#fff;float:left}#document #labels li{float:left;text-align:center}#document #times{float:left}#document #times ul{list-style:none;border-top:1px solid #333;width:34px;}#document #times li{line-height:8em;border-bottom:1px solid #333}#document #days{border-left:1px solid #777}#document .day{float:left;border-left:1px solid #333;border-bottom:1px solid #333;height:648px;background-color:#eee;position:relative}#document #last{width:111px}#document .block{position:absolute;border:1px inset rgba(0,0,0,0.5);padding:2px 0 0 2px;text-align:left;left:2px;right:2px;color:#000;line-height:1.1em;margin-top:2px}#document .small{font-size:85%;line-height:1.0em}
+
+
+#document #labels {width: 954px;}
+#document #labels li {width: 190px;}
+#document .day {width: 190px;}
