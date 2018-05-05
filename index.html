@@ -1,41 +1,140 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Sebastian Rodriguez</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/custom.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  </head>
-  <body>
-    <div class="container mx-auto mt-8 mb-8 pt-8 pb-8 w-5/6 lg:w-1/2 align-middle font-light">
-      <center>
-        <a class="h-32 w-32 mb-8 mt-2 rounded-full flex items-center justify-center" href="/">
-          <img class="h-32 w-32 rounded-full flex items-center justify-center" src="assets/profile.jpg"/>
-        </a>
-      </center>
+	<head>
+		<title>Sebastian Rodriguez</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
-      <p class="text-justify text-grey-darkest mb-6 pt-2 leading-normal">Hi there! Welcome to my website! I'm <b>Sebastian Rodriguez</b>, a 17-year-old high school student at <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.browning.edu/">The Browning School</a> in New York City.</p>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">My Projects</a></li>
+							<li><a href="#two">My Skills</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-      <p class="text-justify text-grey-darkest mb-6 leading-normal">As someone who is passionate about computer science, I have learned a great deal about the different languages and software available. Some of these include HTML/CSS, PHP, Ruby, MySQL, <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com">Adobe</a> <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com/products/photoshop.html">Photoshop</a> and <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.adobe.com/products/illustrator.html">Illustrator</a>, <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.sketchapp.com/">Sketch</a>, and <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.autodesk.com/products/fusion-360/overview">Autodesk Fusion 360</a>. I am also comfortable working in several different environments, including MacOS, Windows, IOS, Android, and Linux-based terminals.</p>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-      <p class="text-justify text-grey-darkest mb-4 leading-normal">This website is hosted on a cluster of three <a class="text-blue no-underline hover:underline" target="_blank" href="https://www.raspberrypi.org/">Raspberry Pi</a> as project exploring computing systems and networking. If you want to setup your own home web server using a Pi, follow <a class="text-blue no-underline hover:underline" href="/tutorial.html">my guide</a>.To see more of my projects, check out my GitHub!</p>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<center>
+								<h1 style="font-family: 'Quicksand', sans-serif;">Sebastian Rodriguez</h1>
 
-      <div class="flex flex-wrap pt-6">
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-grey-light text-grey-darkest text-center no-underline block rounded hover:bg-grey py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="mailto:me@seb646.com"><i class="fas fa-at"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-orange text-grey-lightest text-center no-underline block rounded hover:bg-orange-dark py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="schedule.html"><i class="far fa-calendar-alt"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-blue text-white text-center no-underline block rounded hover:bg-blue-dark py-2 px-4 md:mr-3 lg:mr-3 mb-3" target="_blank" href="https://www.linkedin.com/in/seb646/"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="w-full sm:w-full md:w-1/4 lg:w-1/4">
-          <a class="bg-black text-white text-center no-underline block rounded hover:bg-grey-darkest py-2 px-4" target="_blank" href="https://github.com/seb646"><i class="fab fa-github"></i></a>
-        </div>
-      </div>
-    </div>
-  </body>
+								<ul class="icons">
+									<li><a href="https://twitter.com/seb646" class="icon fa-2x fa-twitter" style="color:#1da1f2"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.snapchat.com/add/sebastian646" class="icon fa-2x fa-snapchat-ghost" style="color:#FFFC00"><span class="label">Snapchat</span></a></li>
+									<li><a href="https://github.com/seb646" class="icon fa-2x fa-github" style="color:#fff"><span class="label">Github</span></a></li>
+									<!-- <li><a href="mailto:srodriguez@browning.edu" class="icon fa-2x fa-envelope" style="color:#E63A50"><span class="label">Email</span></a></li> -->
+								</ul>
+							</center>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" style="pointer-events: none; cursor: default;" class="image"><img src="images/laravel.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Laravel</h2>
+									<p>A dynamic and powerful PHP framework. </p>
+									<ul class="actions">
+										<li><a href="https://laravel.com/" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" style="pointer-events: none; cursor: default;" class="image"><img src="images/p5-js.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>p5.js</h2>
+									<p>A JavaScript library created for basic graphic and interactive projects.</p>
+									<ul class="actions">
+										<li><a href="http://p5js.org" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" style="pointer-events: none; cursor: default;" class="image"><img src="images/Debian.png" alt="" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Debian Server</h2>
+									<p>An advanced Linux operating system that supports this website's server.</p>
+									<ul class="actions">
+										<li><a href="https://www.debian.org/" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>My Skills</h2>
+							<p>The various skills I've developed through years of using the interwebz.</p>
+							<div class="features">
+								<section>
+									<span class="icon major fa-html5"></span>
+									<h3>HTML</h3>
+									<p>A markup language for displaying plain-text web documents.</p>
+								</section>
+								<section>
+									<span class="icon major fa-css3"></span>
+									<h3>CSS</h3>
+									<p>A language that helps describe how HTML elements are displayed on screen.</p>
+								</section>
+								<section>
+									<span class="icon major fa-code"></span>
+									<h3>PHP</h3>
+									<p>A scripting language built ontop of PHP to make interactive websites.</p>
+								</section>
+								<section>
+									<span class="icon major fa-terminal"></span>
+									<h3>Command Line</h3>
+									<p>A means of interacting with a computer program through a terminal.</p>
+								</section>
+								<section>
+									<span class="icon major fa-code"></span>
+									<h3>JavaScript</h3>
+									<p>A scripting language that adds client-side behavior to HTML pages.</p>
+								</section>
+								<section>
+									<span class="icon major fa-picture-o"></span>
+									<h3>Graphic Design</h3>
+									<p>The process of using visual communication through the correct use of typography, space, image, and color.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
