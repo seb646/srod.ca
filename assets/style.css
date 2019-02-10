@@ -1,42 +1,199 @@
-body{
-	line-height: 1.59 !important;
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5,
+.uk-h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.uk-navbar-item,
+.uk-navbar-nav>li>a,
+.uk-navbar-toggle {
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 100 !important;
 }
 
-h1{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 3rem !important;
+.uk-navbar-item,
+.uk-navbar-nav>li>a,
+.uk-navbar-toggle {
+    font-weight: 600 !important;
+    font-size: 13px !important;
 }
 
-a { 
-    color: #3F51B5 !important;
+.uk-sticky-fixed {
+    background: #000000a6;
 }
 
-a:hover{
-	text-decoration: underline;
-	color: #3F51B5 !important;
+#text {
+    display: inline-block;
+    color: #fff;
+    border-right: 3px solid #d0d0d0;
+    font-weight: 600;
 }
 
-.hero.is-info,
-.tag:not(body).is-info,
-.timeline .timeline-item .timeline-marker.is-info.is-icon,
-.timeline.is-centered .timeline-item.is-info::before {
-    background-color: #3F51B5 !important;
-    border-color: #3F51B5 !important;
+a.week-link:hover {
+    text-decoration: none;
+    color: #000;
 }
 
-.hero.is-social a{
-	color: #fff !important;
+a.week-link.active:hover {
+    text-decoration: none;
+    color: #fff;
 }
 
-.hero.is-social .hero-body{
-	padding: 1.5rem !important;
+.uk-section-blue {
+    background: #3d78b8 url(https://www.transparenttextures.com/patterns/gplay.png) !important;
+    background-size: 20% !important;
 }
 
-.heading{
-	margin-bottom: 13px !important;
+.uk-section-schedule {
+    background: #3e8bde  url(https://www.transparenttextures.com/patterns/maze-black.png) !important;
+    background-size: 4.5% !important;
 }
 
-.description{
-	color: #656565;
-    font-size: 14px;
+.uk-navbar-container {
+    background: #3183d9bd !important;
+    padding: 0 70px;
+    height: 40px;
+}
+
+.uk-navbar-nav>li>a {
+    color: #fff !important;
+    min-height: 40px !important;
+}
+
+.uk-navbar-nav .uk-button-text::before {
+    border-bottom: 3px solid #fff !important;
+}
+
+.uk-card-default{
+	border-radius: 5px;
+}
+
+.uk-card-default .uk-card-header {
+    background: #f3f3f3 !important;
+    border-bottom: 0px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.uk-card-body {
+    padding: 25px 40px !important;
+}
+
+.uk-card-default .uk-card-title {
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.uk-card-default p {
+    margin-top: 5px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+}
+
+#projects,
+#clubs {
+    font-weight: 100;
+}
+
+#churchill {
+    background: #1b1b5f !important;
+}
+
+#icarus {
+    background: #e4cb87 !important;
+}
+
+#icarus h3,
+#icarus p {
+    color: #333 !important;
+}
+
+#browning {
+    background: #c10000 !important;
+}
+
+#tardigrade {
+    background: #ed4630 !important;
+}
+
+#tardigrade h3,
+#tardigrade p,
+#browning h3,
+#browning p,
+#churchill h3,
+#churchill p,
+#goround h3,
+#goround p {
+    color: #fff !important;
+}
+
+#goround {
+    background: #009345 !important;
+}
+
+.uk-description-list>dt {
+    color: #fff !important;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 13px;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+dd {
+    margin-left: 0;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    color: #949494;
+    margin-bottom: 30px;
+}
+
+.uk-button-default {
+    background-color: transparent;
+    color: #444 !important;
+    border-radius: 30px !important;
+    font-weight: 600 !important;
+    border: 1px solid #444 !important;
+}
+
+.uk-button-default:hover {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+h1.title {
+    margin-bottom: .2em !important;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+h2.uk-section-muted {
+    font-weight: 100 !important;
+    color: #4c4c4c !important;
+}
+
+h2.uk-section-secondary {
+    font-weight: 100 !important;
+}
+
+h5.sub-title {
+    margin-top: 0;
+    font-weight: 100;
+    color: #ffffff !important;
+    font-size: 18px;
+}
+
+hr.divider{
+	width: 4%;
+    margin-bottom: 30px;
+    border-top: 3px solid #d8d8d8;
 }

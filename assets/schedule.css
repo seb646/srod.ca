@@ -1,0 +1,269 @@
+#document {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+#document #labels,
+#document #times ul {
+    list-style: none;
+    border-right: 0px !important
+}
+
+#document #labels,
+#document #times ul,
+#document .day {
+    border-right: 1px solid #eee;
+}
+
+body {
+    margin: 0 auto 15px;
+    padding: 0;
+    min-width: 807px;
+    font-family: Arial;
+    page-break-before: always;
+    prince-bookmark-level: 1;
+    prince-bookmark-label: string(doctitle);
+    prince-page-group: start;
+    counter-reset: page 1
+}
+
+#container {
+    margin: 10px auto 0;
+    width: 11in;
+    position: relative
+}
+
+@page {
+    size: US-Letter landscape;
+    margin: 20pt
+}
+
+* {
+    prince-bookmark-level: none
+}
+
+title {
+    string-set: doctitle content()
+}
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word
+}
+
+dl.dataform {
+    margin: 0
+}
+
+dl.dataform dt {
+    float: left;
+    clear: left
+}
+
+dl.dataform dd,
+dl.dataform dt {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+#document * {
+    padding: 0;
+    margin: 0
+}
+
+#document .blockdata {
+    padding: 3px
+}
+
+#document #header {
+    margin-bottom: 6px;
+}
+
+#document #header h1 {
+    text-align: center;
+    font-size: 1.5em
+}
+
+#document #header h2 {
+    text-align: center;
+    font-size: 1.2em
+}
+
+#document #header p {
+    width: 235px;
+    float: left
+}
+
+#document #header .phone {
+    margin-left: 15px
+}
+
+#document #paragraphs {
+    margin-left: 35px
+}
+
+#document .schedule-block {
+    transition: 0.3s;
+    position: relative;
+    width: 100%;
+    page-break-after: always;
+}
+
+#document #labels {
+    margin-left: 35px;
+    font-size: 1.2em;
+    background: #900b0b;
+    padding: 5px 0;
+    color: #fff;
+    float: left;
+    width: 954px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#document #labels li {
+    float: left;
+    text-align: center
+}
+
+#document #times {
+    float: left
+}
+
+#document #times ul {
+    border-top: 1px solid #dadada;
+    width: 34px
+}
+
+#document #times li {
+    line-height: 8em;
+    border-bottom: 1px solid #dadada
+}
+
+#document #days {
+    border-left: 1px solid #777
+}
+
+#document .day {
+    float: left;
+    border-bottom: 4px solid #eee;
+    height: 648px;
+    background-color: #eee;
+    position: relative;
+    z-index: 1;
+}
+
+#document #last {
+    width: 111px
+}
+
+#document .block {
+    position: absolute;
+    border: 1px solid #eee;
+    padding: 2px 0 0 2px;
+    text-align: left;
+    left: 2px;
+    right: 2px;
+    color: #000;
+    line-height: 1.1em;
+    margin-top: 2px
+}
+
+#document .small {
+    font-size: 85%;
+    line-height: 1em
+}
+
+#document #labels li,
+#document .day {
+    width: 190px
+}
+
+.block p {
+    padding: 8px 5px !important;
+    line-height: 1.3 !important;
+}
+
+.block#free p {
+    padding: 15px 5px !important;
+}
+
+.block.triple p {
+    padding: 27px 5px !important;
+}
+
+.block.before p,
+.block.before#free p {
+    padding: 0px 5px !important;
+}
+
+.block.half p,
+.block.half#free p {
+    padding: 2px 5px !important;
+}
+
+.hidden {
+    display: none !important;
+    transition: 0.3s;
+}
+
+.week-link {
+    padding: 10px 60px !important;
+    background: #efefef;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.week-link.active {
+    background: #3d78b8;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#free {
+    background: #fff !important;
+}
+
+#kinda-free {
+    background: #E0E0E0 !important;
+}
+
+#art {
+    background: #f1ec50 !important;
+}
+
+#comp-sci {
+    background: #8be0c4 !important;
+}
+
+#philosophy {
+    background: #ccb9fb !important;
+}
+
+#physics {
+    background: #9cd1ff !important
+}
+
+#math {
+    background: #ffdaab !important;
+}
+
+#english {
+    background: #ffbdbd !important;
+}
