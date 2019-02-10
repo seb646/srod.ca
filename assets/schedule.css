@@ -80,7 +80,8 @@ dl.dataform dt {
 
 #document * {
     padding: 0;
-    margin: 0
+    margin: 0;
+    box-sizing: initial !important;
 }
 
 #document .blockdata {
@@ -183,7 +184,8 @@ dl.dataform dt {
 
 #document .small {
     font-size: 85%;
-    line-height: 1em
+    line-height: 1em;
+    box-sizing: initial !important;
 }
 
 #document #labels li,
@@ -194,6 +196,7 @@ dl.dataform dt {
 .block p {
     padding: 8px 5px !important;
     line-height: 1.3 !important;
+    box-sizing: initial !important;
 }
 
 .block#free p {
@@ -207,6 +210,7 @@ dl.dataform dt {
 .block.before p,
 .block.before#free p {
     padding: 0px 5px !important;
+    box-sizing: initial !important;
 }
 
 .block.half p,
