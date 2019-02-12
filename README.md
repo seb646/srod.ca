@@ -1,2 +1,13 @@
 # seb646.com
-The code behind my personal website.
+This repository contains the code behind my personal website (http://seb646.com). 
+
+
+**Version**: 11<br>
+**Released**: Feb 2019<br>
+**First Published**: Feb 2016 (srodriguez.xyz); Feb 2018 (seb646.com)
+
+## Credits:
+This website utilizes the following libraries:
+
+- [Tachyons CSS](http://tachyons.io/)
+- [Animsition](http://git.blivesta.com/animsition/) and [Rippler](http://git.blivesta.com/rippler/) by [Blivesta](https://www.blivesta.com/)
