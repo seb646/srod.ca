@@ -3,7 +3,7 @@ This repository contains the code behind my personal website (http://seb646.com)
 
 
 **Version**: 11<br>
-**Released**: Feb 2019<br>
+**Latest Release**: Feb 2019<br>
 **First Published**: Feb 2016 (srodriguez.xyz); Feb 2018 (seb646.com)
 
 ## Credits:
