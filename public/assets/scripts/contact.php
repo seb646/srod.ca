@@ -1,4 +1,5 @@
 <?php
+include 'captcha.php';
 $contact_successful = false;
 $error_msgs = [
     'missing-input-secret' => 'The secret parameter is missing.',
@@ -10,7 +11,6 @@ $error_msgs = [
 ];
 if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['g-recaptcha-response'])) {
     $captcha_url = 'https://google.com/recaptcha/api/siteverify';
-    $captcha_secret = '6LckRC8fAAAAAMI7ZqMAsOL87VgJz0kIVItE9r-e';
     $captcha_response = $_POST['g-recaptcha-response'];
 
     $captcha = file_get_contents($captcha_url.'?secret='.$captcha_secret.'&response='.$captcha_response);
