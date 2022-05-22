@@ -40,7 +40,7 @@
 	<link rel="stylesheet" href="../assets/styles/main.css">
 </head>
 <body class="preload">
-	<nav class="border-b-2 border-gray-700">
+	<nav>
 		<div class="max-w-6xl mx-auto py-8">
 			<div class="relative flex flex-col sm:flex-row items-center justify-between space-y-8 sm:space-y-0"> 
 				<a href="../index.html" class="logo text-2xl font-bold text-white poppins border-b-4 border-sky-400">
@@ -56,113 +56,86 @@
 			</div>
 		</div>
 	</nav>
-	<div class="max-w-6xl mx-auto space-y-10 pt-8">
-		<nav class="flex mb-8" aria-label="Breadcrumb">
-			<ol role="list" class="flex items-center space-x-4">
-			<li>
-				<div class="flex items-center">
-				<a href="../projects/index.html" class="text-sm font-medium text-standard hover:text-standard">Projects</a>
-				</div>
-			</li>
-			<li>
-				<div class="flex items-center">
-				<svg class="flex-shrink-0 h-5 w-5 text-standard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-					<path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-				</svg>
-				<a class="ml-4 text-sm font-medium text-standard" aria-current="page">Dark Patterns</a>
-				</div>
-			</li>
-			</ol>
-		</nav>
+	<div class="max-w-6xl mx-auto pt-4">
 		<div class="mx-8 xl:mx-0">
-			<h1 class="text-4xl text-gray-200 mb-2 font-bold poppins">The United States of Surveillance</h1>
-			<p class="text-lg text-standard">An analysis of America's  mass surveillance laws, programs, and oversight</p>
+			<a href="../projects/index.html" class="rounded-full inline-block text-standard border border-standard p-4 hover:text-sky-400 hover:border-sky-400">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+				<span class="sr-only">View All Projects</span>
+			</a>
+		</div>
+		<div class="mx-8 mt-24 mb-10 xl:mx-0">
+			<div class="max-w-4xl">
+				<h1 class="text-7xl text-gray-200 mb-2 font-bold poppins leading-tight">The United States of Surveillance</h1>
+			</div>
+			<div class="mt-20 mb-20 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-4 sm:gap-y-16 lg:gap-x-8 text-standard text-lg">
+				<div> 
+					<h2 class="font-medium text-gray-200">Timeline</h2>
+					<p class="mt-2 text-sm mono uppercase">Feb 2021 &ndash; Jun 2021</p>
+				</div>
+				<div> 
+					<h2 class="font-medium text-gray-200">Topics</h2>
+					<p class="mt-2 text-sm mono uppercase">Research & Pedagogy</p>
+					<p class="mt-1 text-sm mono uppercase">Surveillance</p>
+				</div>
+				<div> 
+					<h2 class="font-medium text-gray-200">Role</h2>
+					<p class="mt-2 text-sm mono uppercase">Researcher & Author</p>
+					<p class="mt-1 text-sm mono uppercase">Design & Development</p>
+				</div>
+				<div> 
+					<h2 class="font-medium text-gray-200">Link</h2>
+					<p class="mt-2 text-sm mono uppercase"><a href="https://masssurveillance.net" class="hover:text-sky-400 group inline-flex items-center">View Website <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block pl-1"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a></p>
+				</div>
+			</div>
+			<div class="mx-8 xl:mx-0">
+				<img class="rounded-3xl my-10 xl:scale-105 w-full" src="../assets/images/projects/mass-surveillance.webp" alt="An overview of masssurveillance.net's user interface with a screenshot of my mass surveillance research paper"> 
+			</div>
 		</div>
 	</div>
 	<div class="max-w-6xl mx-auto grid sm:grid-cols-6 lg:gap-8">
 		<div class="col-span-6 md:hidden pt-8 md:pt-16">
 			<div class="px-8">
-				<h2 class="uppercase text-base font-medium text-standard mb-3">Table of Contents</h2>
+				<h2 class="text-lg font-medium text-standard mb-2">Table of Contents</h2>
 				<ul class="space-y-2">
-					<li><a class="text-standard hover:text-sky-400" href="#intro">Introduction</a></li>
-					<li><a class="text-standard hover:text-sky-400" href="#abstract">Abstract</a></li>
-					<li><a class="text-standard hover:text-sky-400" href="#resource">Digital Resource</a></li>
+					<li><a class="text-standard hover:text-sky-400" href="#challenge">Challenge</a></li>
+					<li><a class="text-standard hover:text-sky-400" href="#solution">Solution</a></li>
+					<li><a class="text-standard hover:text-sky-400" href="#impact">Impact</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="col-span-6 md:col-span-4">
-			<div class="mx-8 xl:mx-0">
-				<img class="rounded-3xl my-10 xl:scale-105" src="../assets/images/projects/mass-surveillance.webp" alt="An overview of masssurveillance.net's user interface with a screenshot of my mass surveillance research paper"> 
-				<div class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-3 sm:gap-y-16 lg:gap-x-8 text-standard">
-					<div class="border-t-2 border-gray-700 pt-4"> 
-						<h2 class="font-medium">Project Timeline</h2>
-						<p class="mt-2 text-sm">January &ndash; April 2022</p>
-					</div>
-					<div class="border-t-2 border-gray-700 pt-4"> 
-						<h2 class="font-medium">Project Type</h2>
-						<p class="mt-2 text-sm">Academic Research</p>
-					</div>
-					<div class="border-t-2 border-gray-700 pt-4"> 
-						<h2 class="font-medium">Tools Used</h2>
-						<p class="mt-2 text-sm">Vue.js</p>
-						<p class="mt-2 text-sm">VuePress</p>
-					</div>
-				</div>
-			</div>
-			<section class="project-section py-16" id="intro">
+			<section class="project-section py-16" id="challenge">
 				<div class="max-w-6xl m-auto text-standard">
-					<div class="space-y-8">
-						<h2 class="text-3xl text-gray-200 mb-1 font-bold tracking-wide">Introduction</h2>
-						<div class="mt-4 space-y-4">
-							<div class="bg-secondary rounded-xl p-5">
-								<h3 class="grow text-lg font-medium text-gray-100 mb-3">Overview</h3>
-								<div class="space-y-4">
-									<p>Mass surveillance is a pervasive and systemic threat to the rights and privacy of individuals across the world. In the United States, a complex system of laws and legal precedents established and continues to support the surveillance state. The government has warrantless access to millions of citizens' data, and they operate with little to no oversight. The practices and impacts of mass surveillance in the United States has been extensively documented, but it remains a challenging concept to fully comprehend.</p>
-
-									<p>The United States of Surveillance is a combination of an interactive website and academic paper that provides a brief overview and analysis of the most invasive practices and the complex legal structure that supports it. The website was presented as a digital poster at the <a class="border-b-2 border-gray-400 font-medium hover:text-sky-400 hover:border-sky-400" href="https://dhsi.org">Digital Humanities Summer Institute's</a> 2021 Conference and Colloquium, and the paper has been submitted for review to an academic, peer-reviewed journal. </p>
-								</div>
-							</div>
-						</div>
-                    </div>
-				</div>
-			</section>
-			<section class="project-section py-16 text-standard" id="abstract">
-				<div class="max-w-6xl mx-auto grid items-center">
-					<div>
-						<h2 class="text-3xl text-gray-200 mb-1 font-bold tracking-wide">Paper Abstract</h2>
-						<p class="mt-4 text-standard">After the September 11 attacks, the United States government implemented several programs to safeguard its citizens both at home and abroad. The Global War on Terrorism began, and the power of the United States executive branch grew, deploying troops and declaring war on an enemy with no one country to call home. The fight against terrorism, however, was not limited to military deployments in the Middle East. Legislation and legal interpretations, including the USA PATRIOT Act, the Foreign Intelligence Surveillance Act (FISA), and others, granted the executive extraordinary powers to fight a digital surveillance war, not against any one country but against various networks of alleged terrorist cells located around the world.</p>
-                        <p class="mt-4 text-standard">The attacks on U.S. soil highlighted a lack of communication between the country's intelligence agencies. Programs implemented after 2001 sought to allow information to flow across various agencies, while greatly expanding the powers of intelligence gathering. Utilizing the Unitary Executive interpretation of Constitutional power, and with the help of legislation and a secret court, the executive branch of the United States government created a surveillance state that continues to jeopardize the rights American citizens have to privacy, the Fourth Amendment's protection from unreasonable searches and seizures, and the Sixth Amendment's rights to be informed when accused of a crime and to face an accuser in court. The pervasive and interlocking network of mass surveillance developing from the War on Terror has grown into a systemic problem for U.S. citizens, with its programs continuing to infringe upon the rights of millions while producing little to no meaningful results.</p>
+					<h2 class="text-3xl text-gray-200 font-bold tracking-wide mb-6">Challenge</h2>
+					<div class="space-y-4">
+						<p class="text-lg leading-relaxed">The field of surveillance studies is a broad aggregation of interests in privacy, technology, law & democracy, economics, and communication. While significant work has been done by scholars to inform the academic community on mass surveillance, the concepts are often challenging for the general public to understand due to the complexity of government systems and policy. </p>
 					</div>
 				</div>
 			</section>
-			<section class="project-section py-16" id="resource">
-				<div class="max-w-6xl mx-auto text-standard">
-					<h2 class="text-3xl text-gray-200 mb-1 font-bold tracking-wide">Digital Resource</h2>
-					<p class="mt-4">The digital component of this project is an open-source website built with Vue.js that documents the laws, programs, and legal precedents that support mass surveillance in the United States. The website emulates a developer documentation website, with digestible pages outlining each separate section of the research paper. </p>
-					<p class="mt-4">As an open-source project, anyone is welcome to contribute to the repository through the project's GitHub. The rules for contributions, and detailed steps on how to contribute, are outlined on the website. </p>
-					<a href="https://masssurveillance.net/" class="mt-4 text-lg font-bold group arrow-link text-standard hover:text-white inline-flex items-center">Visit Website 
-						<span class="text-sky-400 inline-block pl-1 text-base group-hover:pl-3">
-							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-						</span>
-					</a>
-					<div class="relative mt-8">
-						<div class="project-slider"> 
-							<img class="project-slider-img" src="../assets/images/projects/mass-surveillance-1.webp" alt="masssurveillance.net's home page with a picture of a U.S. flag surveillance camera"> 
-							<img class="project-slider-img" src="../assets/images/projects/mass-surveillance-2.webp" alt="A screenshot of masssurveillance.net's page on the Foreign Intelligence Surveillance Act (FISA)"> 
-							<img class="project-slider-img" src="../assets/images/projects/mass-surveillance-3.webp" alt="A screenshot of masssurveillance.net showing how to contribute to the open source project">
-							<img class="project-slider-img" src="../assets/images/projects/mass-surveillance-4.webp" alt="A screenshot of masssurveillance.net's page on the NSA's MYSTIC program"> 
-						</div>
-					</div>
+			<section class="project-section py-16" id="solution">
+				<div class="max-w-6xl m-auto text-standard">
+					<h2 class="text-3xl text-gray-200 font-bold tracking-wide mb-6">Solution</h2>
+					<p class="text-lg leading-relaxe">Translate and deconstruct the complex legal framework supporting the surveillance state into language the general public can understand. Develop a website and write a paper that provides people with information that can be used to reassert their rights to privacy and concent, as well as resist further erosion of democratic governance.</p>
+				</div>
+			</section>
+			<section class="project-section py-16" id="impact">
+				<div class="max-w-6xl m-auto text-standard">
+					<h2 class="text-3xl text-gray-200 font-bold tracking-wide mb-6">Impact</h2>
+					<ul class="list-disc ml-8 space-y-3 mt-4 text-lg">
+						<li>Published a research paper, titled <span class="italic">The United States of Surveillance: An Analysis of America's Mass Surveillance Laws, Programs, and Oversight</span>, in the Canadian Social Knowledge Institute (C-SKI)'s <a href="https://ideah.pubpub.org/" class="border-b-2 border-gray-400 font-medium hover:text-sky-400 hover:border-sky-400">IDEAH</a> journal.</li>
+						<li>Developed an open-source website allowing other scholars, experts, and activists contribute to the growing documentation of surveillance laws and programs in the United States.</li>
+						<li>Presented the website and research at the <a href="https://dhsi.org" class="border-b-2 border-gray-400 font-medium hover:text-sky-400 hover:border-sky-400">Digital Humanities Summer Institute (DHSI)'s</a> 2021 Conference & Colloquium.</li>
+					</ul>
 				</div>
 			</section>
 		</div>
 		<div class="col-span-6 hidden md:block md:col-span-2 py-16">
 			<div class="project-toc w-fit mx-auto">
-				<h2 class="uppercase text-base font-medium text-standard mb-3 tracking-wider">Table of Contents</h2>
+				<h2 class="text-lg font-medium text-standard mb-2">Table of Contents</h2>
 				<ul class="space-y-1">
-					<li><a class="project-toc-link text-standard hover:text-sky-400 active" href="#intro">Introduction</a></li>
-					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#abstract">Abstract</a></li>
-					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#resource">Digital Resource</a></li>
+					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#challenge">Challenge</a></li>
+					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#solution">Solution</a></li>
+					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#impact">Impact</a></li>
 				</ul>
 			</div>
 		</div>

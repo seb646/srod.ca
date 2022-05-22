@@ -41,7 +41,7 @@
 	<link rel="stylesheet" href="../assets/styles/main.css">
 </head>
 <body class="preload">
-	<nav class="border-b-2 border-gray-700">
+	<nav>
 		<div class="max-w-6xl mx-auto py-8">
 			<div class="relative flex flex-col sm:flex-row items-center justify-between space-y-8 sm:space-y-0"> 
 				<a href="../index.html" class="logo text-2xl font-bold text-white poppins border-b-4 border-sky-400">
@@ -57,33 +57,46 @@
 			</div>
 		</div>
 	</nav>
-	<div class="max-w-6xl mx-auto space-y-10 pt-8">
-		<nav class="flex mb-8" aria-label="Breadcrumb">
-			<ol role="list" class="flex items-center space-x-4">
-			<li>
-				<div class="flex items-center">
-				<a href="../projects/index.html" class="text-sm font-medium text-standard hover:text-standard">Projects</a>
-				</div>
-			</li>
-			<li>
-				<div class="flex items-center">
-				<svg class="flex-shrink-0 h-5 w-5 text-standard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-					<path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-				</svg>
-				<a class="ml-4 text-sm font-medium text-standard" aria-current="page">Dark Patterns: Deceptive UX Design</a>
-				</div>
-			</li>
-			</ol>
-		</nav>
+	<div class="max-w-6xl mx-auto pt-4">
 		<div class="mx-8 xl:mx-0">
-			<h1 class="text-4xl text-gray-200 mb-2 font-bold poppins">Dark Patterns: Deceptive UX Design</h1>
-			<p class="text-lg text-standard">Analyzing the deceptive marketing and design strategies that manipulate user decisions</p>
+			<a href="../projects/index.html" class="rounded-full inline-block text-standard border border-standard p-4 hover:text-sky-400 hover:border-sky-400">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+				<span class="sr-only">View All Projects</span>
+			</a>
+		</div>
+		<div class="mx-8 mt-24 mb-10 xl:mx-0">
+			<div class="max-w-4xl">
+				<h1 class="text-7xl text-gray-200 mb-2 font-bold poppins leading-tight">Dark Patterns: <br>Deceptive UX Design</h1>
+			</div>
+			<div class="mt-20 mb-20 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-4 sm:gap-y-16 lg:gap-x-8 text-standard text-lg">
+				<div> 
+					<h2 class="font-medium text-gray-200">Timeline</h2>
+					<p class="mt-2 text-sm mono uppercase">Jan 2022 &ndash; Apr 2022</p>
+				</div>
+				<div> 
+					<h2 class="font-medium text-gray-200">Topics</h2>
+					<p class="mt-2 text-sm mono uppercase">Research & Pedagogy</p>
+					<p class="mt-1 text-sm mono uppercase">UI/UX Design</p>
+				</div>
+				<div> 
+					<h2 class="font-medium text-gray-200">Role</h2>
+					<p class="mt-2 text-sm mono uppercase">Research Assistant</p>
+					<p class="mt-1 text-sm mono uppercase">Design & Development</p>
+				</div>
+				<div> 
+					<h2 class="font-medium text-gray-200">Link</h2>
+					<p class="mt-2 text-sm mono uppercase"><a href="https://darkpatterns.srod.ca" class="hover:text-sky-400 group inline-flex items-center">View Website <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block pl-1"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a></p>
+				</div>
+			</div>
+			<div class="mx-8 xl:mx-0">
+				<img class="rounded-3xl my-10 xl:scale-105 w-full" src="../assets/images/projects/dark-patterns.webp" alt="An overview of the Dark Patterns website user interface"> 
+			</div>
 		</div>
 	</div>
 	<div class="max-w-6xl mx-auto grid sm:grid-cols-6 lg:gap-8">
 		<div class="col-span-6 md:hidden pt-8 md:pt-16">
 			<div class="px-8">
-				<h2 class="uppercase text-base font-medium text-standard mb-3">Table of Contents</h2>
+				<h2 class="text-lg font-medium text-standard mb-2">Table of Contents</h2>
 				<ul class="space-y-2">
 					<li><a class="text-standard hover:text-sky-400" href="#intro">Introduction</a></li>
 					<li><a class="text-standard hover:text-sky-400" href="#objectives">Objectives</a></li>
@@ -93,33 +106,18 @@
 			</div>
 		</div>
 		<div class="col-span-6 md:col-span-4">
-			<div class="mx-8 xl:mx-0">
-				<img class="rounded-3xl my-10 xl:scale-105" src="../assets/images/projects/dark-patterns.webp" alt="An overview of the Dark Patterns website user interface"> 
-				<div class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-3 sm:gap-y-16 lg:gap-x-8 text-standard">
-					<div class="border-t-2 border-gray-700 pt-4"> 
-						<h2 class="font-medium">Project Timeline</h2>
-						<p class="mt-2 text-sm">January &ndash; April 2022</p>
-					</div>
-					<div class="border-t-2 border-gray-700 pt-4"> 
-						<h2 class="font-medium">Project Type</h2>
-						<p class="mt-2 text-sm">Academic Research</p>
-						<p class="mt-1 text-sm">UI/UX Design</p>
-					</div>
-					<div class="border-t-2 border-gray-700 pt-4"> 
-						<h2 class="font-medium">Tools Used</h2>
-						<p class="mt-2 text-sm">WordPress</p>
-						<p class="mt-1 text-sm">WooCommerce</p>
-					</div>
-				</div>
-			</div>
-			<section class="project-section py-16" id="intro">
+			<section class="project-section py-16" id="challenge">
 				<div class="max-w-6xl m-auto text-standard">
-					<h2 class="text-3xl text-gray-200 mb-1 font-bold tracking-wide">Introduction</h2>
-					<div class="mt-4 space-y-4">
+					<h2 class="text-3xl text-gray-200 font-bold tracking-wide mb-6">Challenge</h2>
+					<div class="space-y-4">
+						<p class="text-lg leading-relaxed">Our actions on the internet are guided by the user interfaces and experiences crafted by designers and developers. A growing trend in web design are <span class="italic">dark patterns</span> (also known as "deceptive design" or "persuasive design"), which are a set of strategies that purposefully maipulate users into making decisions that go against their interests. </p>
+					<p class="text-lg leading-relaxed">The responsibility of researchers and educators is to inform the next generation of designers, developers, and marketing strategists on the negative impact of dark patterns–including their inaccessiblility–and provide them with the tools required to create ethical experiences.</p>
+					</div>
+					<!-- <div class="mt-6 space-y-4">
 						<div class="bg-secondary rounded-xl p-5">
 							<h3 class="grow text-lg font-medium text-gray-100 mb-3">What are dark patterns?</h3>
 							<div class="space-y-4">
-								<p>Dark patterns (also known as “deceptive design” or "persuasive design”) are a set of strategies which digital marketing and human-computer interaction (HCI) experts deploy in website development and design. Dark patterns are purposefully crafted design choices which lead users to make unintentional (and often malicious) decisions that go against their own interests. </p>
+								<p class="text-lg">Dark patterns (also known as “deceptive design” or "persuasive design”) are a set of strategies which digital marketing and human-computer interaction (HCI) experts deploy in website development and design. Dark patterns are purposefully crafted design choices which lead users to make unintentional (and often malicious) decisions that go against their own interests. </p>
 							</div>
 						</div>
 						<div class="bg-secondary rounded-xl p-5">
@@ -148,60 +146,77 @@
 								<li><a class="border-b-2 border-gray-400 font-medium hover:text-sky-400 hover:border-sky-400" href="https://dhn.utoronto.ca">Critical Digitial Humanities Initiative (CDHI)</a></li>
 							</ul>
 						</div>
-					</div>
-				</div>
-			</section>
-			<section class="project-section py-16 text-standard" id="objectives">
-				<div class="max-w-6xl mx-auto grid items-center">
-					<div>
-						<h2 class="text-3xl text-gray-200 mb-1 font-bold tracking-wide">Objectives</h2>
-						<p class="mt-4">Our goal was to create a website that effectively communicates and demonstrates dark patterns in user experience and interface design. Our target audience was first-year undergraduate students in the University of Toronto's communication, culture and technology stream, who are preparing for futures as designers, developers, business consultants, and marketing strategists.</p>
-						<p class="mt-4">Throughout our research, we defined the following core principles that our project required:</p>
-						<ul class="list-disc ml-8 space-y-3 mt-4">
-							<li><span class="font-bold">Educational:</span> It provide students with a foundational understanding of UI/UX design, marketing strategies, and the psychology of manipulation.</li>
-							<li><span class="font-bold">Interactive:</span> It must provide students with an experience that mirrors common blogs, shops, and social media websites.</li>
-							<li><span class="font-bold">Accessible:</span> It must be usable by any student, regardless of their ability or screen size.</li>
-							<li><span class="font-bold">Relevant:</span> It should highlight patterns that students likely experience on a regular basis.</li>
-							<li><span class="font-bold">Historical:</span> It must provide students with a proper context, highlighting the evolution of design and marketing strategies.</li>
-							<li><span class="font-bold">Neutral:</span> It must discuss dark patterns as a general field of study, and not explicitly name any one company, organization, or person.</li>
-						</ul>
-					</div>
+					</div> -->
 				</div>
 			</section>
 			<section class="project-section py-16" id="solution">
-				<div class="max-w-6xl mx-auto text-standard">
-					<h2 class="text-3xl text-gray-200 mb-1 font-bold tracking-wide">Solution</h2>
-					<p class="mt-4">Designing an educational website for first-year students required an intricate combination of cross-platform compatibility, accessible functions, and concise yet educational language. The website was designed to showcase individual dark patterns, providing a brief history on each strategy and allowing students to interact with examples. We also created a simulated e-commerce environment combining several dark patterns into a single platform, providing a space for students to test their knowledge and helping them identify unethical designs.</p>
-					<div class="relative mt-8">
-						<div class="project-slider"> 
-							<img class="project-slider-img" src="../assets/images/projects/dark-patterns-1.webp" alt="Dark Patterns Website - Home landing page with wave design"> 
-							<img class="project-slider-img" src="../assets/images/projects/dark-patterns-2.webp" alt="Dark Patterns Website - Example listing page showcasing manipulative design strategies"> 
-							<img class="project-slider-img" src="../assets/images/projects/dark-patterns-3.webp" alt="Dark Patterns Website - An image showing how newsletter popups manipulate and shame users into agreeing to sign up for unwanted emails">
-							<img class="project-slider-img" src="../assets/images/projects/dark-patterns-4.webp" alt="Dark Patterns Website - An image showing how comments impact a user's decision to buy a product"> 
-							<img class="project-slider-img" src="../assets/images/projects/dark-patterns-5.webp" alt="Dark Patterns Website - An image showing how donation popups give users preset values and trick them into making recurring payments"> 
-							<img class="project-slider-img" src="../assets/images/projects/dark-patterns-6.webp" alt="Dark Patterns Website - An image showing how checkout timers pressure buyers into purchasing faster">
+				<div class="max-w-6xl m-auto text-standard">
+					<h2 class="text-3xl text-gray-200 font-bold tracking-wide mb-6">Solution</h2>
+					<p class="text-lg leading-relaxe">Develop an interactive, pedagogical website that teaches students to think critically about their internet activity by training them to identify common dark patterns. By educating the next generation of designers, developers, and business professionals, we aim to prevent the continued use of dark patterns in future design and marketing strategies.</p>
+				</div>
+			</section>
+			<section class="project-section py-16" id="ui-highlights">
+				<div class="max-w-6xl m-auto text-standard">
+					<h2 class="text-3xl text-gray-200 font-bold tracking-wide mb-6">UI Highlights</h2>
+					<p class="text-lg leading-relaxe">The design of the user interface was intended to be modern and simple, emulating experiences seen on other websites. The website features a section allowing users to read more about dark patterns and a fully emmersive e-commerce environment that tests student comprehension.</p>
+					<div class="space-y-8 mt-8">
+						<div>
+							<h3 class="font-medium text-lg mb-5">Home Page</h3>
+							<figure class="image">
+								<img class="scale-110" src="../assets/images/projects/dark-patterns-1.webp" alt="Dark Patterns Website - Home landing page with wave design"> 
+								<figcaption class="mt-5 max-w-xl mx-auto text-center">A definition and description of dark patterns introduces users to the topic and contextualizes their experience on the website.</figcaption>
+							</figure>
+						</div>
+						<div>
+							<h3 class="font-medium text-lg mb-5">Pattern Details Overview</h3>
+							<figure class="image">
+								<img class="scale-110" src="../assets/images/projects/dark-patterns-3.webp" alt="Dark Patterns Website - An image showing how newsletter popups manipulate and shame users into agreeing to sign up for unwanted emails"> 
+								<figcaption class="mt-5 max-w-xl mx-auto text-center">An introduction of each dark pattern that gives a brief history of the strategy and shows users where it's most commonly used.</figcaption>
+							</figure>
+						</div>
+						<div>
+							<h3 class="font-medium text-lg mb-5">Pattern Details Example</h3>
+							<figure class="image">
+								<img class="scale-110" src="../assets/images/projects/dark-patterns-5.webp" alt="Dark Patterns Website - An image showing how donation popups give users preset values and trick them into making recurring payments"> 
+								<figcaption class="mt-5 max-w-xl mx-auto text-center">An example of a dark pattern that gives users a general idea of how it could be implemented.</figcaption>
+							</figure>
+						</div>
+						<div>
+							<h3 class="font-medium text-lg mb-5">E-Commerce Product</h3>
+							<figure class="image">
+								<img class="scale-110" src="../assets/images/projects/dark-patterns-4.webp" alt="Dark Patterns Website - An image showing how comments impact a user's decision to buy a product"> 
+								<figcaption class="mt-5 max-w-xl mx-auto text-center">An example of an e-commerce product that implements multiple dark patterns, designed to help students identify manipulative strategies.</figcaption>
+							</figure>
+						</div>
+						<div>
+							<h3 class="font-medium text-lg mb-5">E-Commerce Checkout</h3>
+							<figure class="image">
+								<img class="scale-110" src="../assets/images/projects/dark-patterns-6.webp" alt="Dark Patterns Website - An image showing how checkout timers pressure buyers into purchasing faster"> 
+								<figcaption class="mt-5 max-w-xl mx-auto text-center">An example of a checkout page that implements multiple dark patterns, designed to help students identify manipulative strategies.</figcaption>
+							</figure>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="project-section py-16" id="outcome">
-				<div class="max-w-6xl mx-auto text-standard">
-					<h2 class="text-3xl text-gray-200 mb-1 font-bold tracking-wide">Outcome</h2>
-					<div class="mt-5 space-y-5">
-						<p>While still in active development, this project will be integrated into the curriculum of CCT109, a first-year undergraduate course at the University of Toronto that is required for all students in the communication, culture and technology stream. CCT109 educates roughly 800 students every year and is designed to provide an introduction to society's current technological landscape. The project effectively combines design, marketing, and business strategies into a digestible introduction to the Institute of Communication, Culture, Information & Technology. </p>
-						<p>Dark patterns remain a present and dangerous threat to users on the internet, and they have the capability of manipulating users without their knowledge. By educating the next generation of designers, developers, and business professionals, we aim to prevent the continued use of dark patterns in future design and marketing strategies. </p>
-					</div>
+			<section class="project-section py-16" id="impact">
+				<div class="max-w-6xl m-auto text-standard">
+					<h2 class="text-3xl text-gray-200 font-bold tracking-wide mb-6">Impact</h2>
+					<ul class="list-disc ml-8 space-y-3 mt-4 text-lg">
+						<li>Integration into the curriculum of "Contemporary Communication Technologies" (CCT109), a first-year undergraduate course at the University of Toronto that educates ~800 students every year and is required for students studying design, web development, marketing, and certain business management programs.</li>
+						<li>Presented at the University of Toronto Critical Digital Humanities Initiative's Emerging Scholar Schowcase, a forum for post-doctoral, graduate, and undergraduate research fellows to share their work.</li>
+						<li>Received inquiries by other professors in higher education to incorporate the website into their course curriculums.</li>
+					</ul>
 				</div>
 			</section>
 		</div>
 		<div class="col-span-6 hidden md:block md:col-span-2 py-16">
 			<div class="project-toc w-fit mx-auto">
-				<h2 class="uppercase text-base font-medium text-standard mb-3 tracking-wider">Table of Contents</h2>
+				<h2 class="text-lg font-medium text-standard mb-2">Table of Contents</h2>
 				<ul class="space-y-1">
-					<li><a class="project-toc-link text-standard hover:text-sky-400 active" href="#intro">Introduction</a></li>
-					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#objectives">Objectives</a></li>
+					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#challenge">Challenge</a></li>
 					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#solution">Solution</a></li>
-					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#outcome">Outcome</a></li>
+					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#ui-highlights">UI Highlights</a></li>
+					<li><a class="project-toc-link text-standard hover:text-sky-400" href="#impact">Impact</a></li>
 				</ul>
 			</div>
 		</div>
