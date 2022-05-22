@@ -1,7 +1,7 @@
 :root {
     --primary-background: #131720;
     --secondary-background: #1c212d; 
-    --text-standard: #a5abbb;
+    --color-standard: #a5abbb;
     --highlight: #37bcf8;
 }
 
@@ -264,7 +264,11 @@ a.arrow-link:hover span,
 }
 
 .text-standard{
-    color: var(--text-standard);
+    color: var(--color-standard);
+}
+
+.border-standard{
+    border-color: var(--color-standard);
 }
 
 .text-primary,
@@ -299,6 +303,12 @@ ul.list-arrow li::marker{
 .hanging-indent{
     padding-left: 36px;
     text-indent: -36px
+}
+
+figure.image figcaption::before {
+    content: "[↑]";
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .project-slider{
