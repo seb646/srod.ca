@@ -1,0 +1,215 @@
+import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
+
+import Layout from "../../components/layout"
+import Seo from "../../components/seo"
+
+import MetaImage from '../../images/work/study-rooms.png' 
+import Starbursting from '../../images/work/study-rooms-starbursting.png' 
+import RoundRobin from '../../images/work/study-rooms-round-robin.png' 
+
+const StudyRoomsPage = ({ location }) => (
+  <Layout location={location}>
+    <div className="max-w-full px-10 md:px-20 xl:px-32 py-20">
+        <div className="max-w-5xl mx-auto">
+            <h1 className="mb-6 text-3xl xl:text-5xl font-extrabold xl:leading-tight text-slate-700">Centralizing study room booking at the University of Toronto</h1>
+            <p className="text-xl text-neutral-600 mx-auto">The University of Toronto has over 40 libraries, yet students can only reserve study rooms online at two of those libraries. We aimed to understand students' frustrations when booking a study room, and designed a new system that centralizes the process across the university.</p>
+        </div>
+    </div>
+    <div className="max-w-full sm:px-10 md:px-20 xl:px-32 pb-20 relative">
+        <div className="max-w-5xl px-10 md:px-0 mx-auto flex flex-col md:flex-row justify-between mb-4 space-y-3 md:space-y-0">
+            <p className="text-sm text-neutral-500">A study area in the University of Toronto's Robarts Common building.</p>
+            <p className="text-sm text-neutral-500 md:text-right">Photo by <a className="font-medium" href="https://smithandandersen.com/work/university-toronto-robarts-common">Smith + Anderson</a></p>
+        </div>
+        <div className="work-img overflow-hidden border border-neutral-200 sm:rounded-3xl flex items-center justify-center mb-10 relative will-change-transform">
+            <StaticImage
+                src="../../images/work/study-rooms.png"
+                loading="eager"
+                formats={["auto", "webp", "avif"]}
+                alt=""
+                className="w-full"
+            />
+        </div>
+        <div className="max-w-5xl px-10 md:px-0 mx-auto">
+            <div className="flex flex-col md:flex-row justify-between text-neutral-600 space-y-6 md:space-y-0">
+                <div>
+                    <p className="font-medium text-black mb-2">Role</p>
+                    <p>UX designer</p>
+                    <p>UX researcher</p>
+                </div>
+                <div>
+                    <p className="font-medium text-black mb-2">Scope</p>
+                    <p>User interviews</p>
+                    <p>Profiles and personas</p>
+                    <p>Addinity diagraming</p>
+                    <p>Information architecture</p>
+                    <p>Sketching and wireframing</p>
+                    <p>Usability testing</p>
+                </div>
+                <div className="space-y-6">
+                    <div>
+                        <p className="font-medium text-black mb-2">Industry</p>
+                        <p>Education</p>
+                    </div>
+                    <div>
+                        <p className="font-medium text-black mb-2">Timeline</p>
+                        <p>Sep 2022 &ndash; Dec 2022</p>
+                    </div>
+                </div>
+                <div className="space-y-6">
+                    <div>
+                        <p className="font-medium text-black mb-2">Team</p>
+                      <p>Sebastian Rodriguez</p>
+                      <p>Laura Lee-Chu</p>
+                      <p>Huda Sahaf</p>
+                      <p>Youngho Kim</p>
+                      <p>Sagith Kalaichelvam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="hidden sm:flex w-full items-end justify-center lg:animate-bounce text-neutral-400  pt-6 pb-10">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+          </svg>
+    </div>
+    <div className="max-w-full px-10 md:px-20 xl:px-32 space-y-10 relative">
+        <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+          <h2 className="font-semibold text-lg sm:text-xl mb-6">Challenge</h2>
+          <div className="space-y-6 sm:text-lg text-neutral-600">
+            <p>Study rooms provide an essential service to students. They are a quiet space where students learn and work individually, and they give opportunities for students to join together and collaborate in small groups. The University of Toronto has over 40 libraries, many of which house study rooms for students, faculty, and staff. As of December 2022, study room booking systems only support two of those libraries: the John P. Robarts Research Library and the Gerstein Science Information Centre. Students looking to book rooms outside of these two locations must speak with a librarian either in-person or over the phone. This limitation creates barriers for students looking to venture beyond the two largest and most crowded libraries on campus. </p>
+            <p>The project aims to understand students' frustrations when booking study rooms at the university's libraries. It examines and addresses the problems students face when utilising study rooms by creating a more efficient booking system and bringing greater awareness to the various study locations available on campus.</p>
+          </div>
+        </div>
+        <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+          <h2 className="font-semibold text-lg sm:text-xl mb-6">Why does this matter?</h2>
+          <div className="space-y-6 sm:text-lg text-neutral-600">
+            <p>The University of Toronto invests heavily in their libraries and its accompanying resources for students:</p>
+            <ul className="list-disc ml-4 max-w-4xl space-y-4">
+                <li>The university's 2022-23 budget allocated <span className="font-medium bg-yellow-100 text-black">CAD$122 million</span> for the administration of its libraries</li>
+                <li>In 2022, the university spent <span className="font-medium bg-yellow-100 text-black">CAD$25 million</span> to develop Robarts Common, an expansion to the Robarts library that provides additional study spaces for 1,200 students</li>
+                <li>In 2008, Ontario contributed <span className="font-medium bg-yellow-100 text-black">CAD$15 million</span> to develop additional study spaces for 1,500 students</li>
+            </ul>
+            <p>Despite these large financial investments, many students are unaware of all the opportunities on campus. Those that are aware may not understand how to take full advantage of these resources or may find the process cumbersome.</p>
+          </div>
+        </div>
+        <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+          <h2 className="font-semibold text-lg sm:text-xl mb-6">Target Audience</h2>
+          <div className="space-y-6 sm:text-lg text-neutral-600">
+                <p>We begain by defining our target audience as students at the University of Toronto. This technologically literate group posesses the ability to find and reserve study rooms, but often lacks the time or mental bandwith to look beyond what's made easily accessible. This group is the foundation of our user profile, and is identified by the following characteristics:</p>
+                <ul className="list-disc ml-4 max-w-4xl space-y-2">
+                    <li>Undergraduate or graduate students</li>
+                    <li>Aged 18 to 30</li>
+                    <li>42.9% male, 54.7% female, 2.4% non-binary</li>
+                    <li>Domestic or international</li>
+                    <li>Multicultural and multilingual</li>
+                    <li>Living on residence or commuting to campus</li>
+                    <li>Commits several hours per day to school work</li>
+                    <li>Participates in group study sessions, or has group assignments</li>
+                    <li>On-campus for an average of 6 hours every day</li>
+                    <li>Has 10-20 hours of work per week</li>
+                    <li>Conscious of academic commitments and responsibilities</li>
+                </ul>
+          </div>
+        </div>
+        <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+            <h2 className="font-semibold text-lg sm:text-xl mb-6">User Persona</h2>
+            <div className="space-y-6 sm:text-lg text-neutral-600">
+                <p>To help us empathize with our target audience, we created Steve, a 20-year-old undergraduate student majoring in political science. He's on-campus almost every day and spends hours each week in a study room working on his assignments. Steve is overworked; his classes are demaning and he has several assignments due each week so he lacks the mental bandwidth to focus on anything beyond his academics.</p>
+                <p>With plans to attend law school, Steve spends much of his free time preparing for the LSAT. He does this by studying quietly on his own and working with a larger group of pre-law students to practice for the exam. It takes Steve over an hour to commute to campus, so he is easily irritated when someone else uses his booked study room or when his friends forget about their study session.</p>
+                <p>Steve needs a way to quickly and efficently view all of the study rooms on campus so he can reserve a quiet space to focus on his work.</p>
+            </div>
+        </div>
+        <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+            <h2 className="font-semibold text-lg sm:text-xl mb-6">Interviews</h2>
+            <div className="space-y-6 sm:text-lg text-neutral-600">
+                <p>To better understand students' frustrations, we interviewed 8 students matching our user profile who shared their thoughts on the current study room booking system. The students gave us significant insights into how they use study rooms and what their experiences were when booking a study room:</p>
+                <ul className="list-disc ml-4 max-w-4xl space-y-4">
+                    <li><span className="font-medium bg-yellow-100 text-black">All of the students we interviewed only booked study rooms in Robarts or Gerstein.</span> Students are unaware of options in other locations, and the system made using other libraries far less accessible.</li>
+                    <li><span className="font-medium bg-yellow-100 text-black">Students allot roughly 5 minutes of their time to book a study room.</span> Students have busy schedules, and they don't want to go through the hassle of speaking with a librarian to reserve a study room.</li>
+                    <li><span className="font-medium bg-yellow-100 text-black">Many of the features students expected from a booking system were missing.</span> Students frequently use reservation systems for airlines, hotels, and restaurants, and their mental models expected abilities like inviting guests or seeing the features associated with a room.</li>
+                </ul>
+            </div>
+        </div>
+        <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+            <h2 className="font-semibold text-lg sm:text-xl mb-6">Proposed Solution</h2>
+            <div className="space-y-6 sm:text-lg text-neutral-600">
+                <p>The data collected from our interviews indicated that students would greatly benefit from a centralized booking system that allows users to reserve study rooms across the university. The project has one primary goal: making study rooms more accessible. This goal is difficult to measure, but we can generally measure the project's success using the following metrics:</p>
+                <ul className="list-disc ml-4 max-w-4xl space-y-4">
+                    <li><span className="font-medium bg-yellow-100 text-black">Students reserving 80% of study rooms using the new system</span>, with the other 20% accounting for cancellations, walk-ins, and in-person reservations.</li>
+                    <li><span className="font-medium bg-yellow-100 text-black">A 60% occupancy rate</span> of study rooms on campus at any given time.</li>
+                    <li><span className="font-medium bg-yellow-100 text-black">A 20% increase in reservations</span> for rooms currently supported by a booking system, which can be compared using data from Robarts and Gerstaein’s current booking platforms.</li>
+                    <li><span className="font-medium bg-yellow-100 text-black">A 40% increase in visitors to the university’s specialty libraries</span>, which can be measured by the T-card entry records of each location.</li>
+                </ul>
+                <p>A centralized room listing is not a new concept to the university. The university created a mobile app called Sync Search, listing vacant classrooms available to students. Although not a booking system, it does include features like showing the nearest study space and adding a particular location to your favorites. This could provide a framework for our system, possibly reducing the cost of this project and decreasing the development timeline.</p>
+            </div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-10">
+            <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+                <h2 className="font-semibold text-lg sm:text-xl mb-6">Starbursting Ideation</h2>
+                <a href={Starbursting}>
+                <StaticImage
+                    src="../../images/work/study-rooms-starbursting.png"
+                    loading="eager"
+                    formats={["auto", "webp", "avif"]}
+                    alt=""
+                    className="w-full"
+                />
+            </a>
+            </div>
+            <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+                <h2 className="font-semibold text-lg sm:text-xl mb-6">Round Robin Ideation</h2>
+                <a href={RoundRobin}>
+                    <StaticImage
+                        src="../../images/work/study-rooms-round-robin.png"
+                        loading="eager"
+                        formats={["auto", "webp", "avif"]}
+                        alt=""
+                        className="w-full"
+                    />
+                </a>
+            </div>
+        </div>
+        <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+            <h2 className="font-semibold text-lg sm:text-xl mb-6">Prototypes & Usability Testing</h2>
+            <div className="space-y-6 sm:text-lg text-neutral-600">
+                <p>The final phase of the project was to design interface prototypes, test them with users, and then create wireframes. We began this phase sketching out the key features we desired, like a calendar interface. Each team member created a sketch for a given page, and then we discussed each design, using dot voting to decide the pages and features we wanted to include.</p>
+                <p>We conducted usability testing with 4 different members of our target audience. We developed a user testing protocol, outlining our testing objectives and providing us with a scrpit to follow during an interview. Testing revealed several areas where our designs conflicted with our users' mental models, namely in button or navigation labels, the interactivity of the system, and in the search bar on our main page.</p>
+                <p>Using feedback from our usability testing, we developed wireframes in Balsamiq to provide a more polished and comprehensive prototype.</p>
+                <a href={RoundRobin} className="inline-block mx-auto">
+                    <StaticImage
+                        src="../../images/work/study-rooms-dashboard.png"
+                        loading="eager"
+                        formats={["auto", "webp", "avif"]}
+                        alt=""
+                        className="w-full inline-block mx-auto"
+                    />
+                </a>
+                <p className="text-center mt-4 text-sm text-neutral-600">The reservation management page of our wireframe prototype.</p>
+            </div>
+        </div>
+        <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+            <h2 className="font-semibold text-lg sm:text-xl mb-6">Outcome</h2>
+            <div className="space-y-6 sm:text-lg text-neutral-600">
+                <p>This was not an official study commissioned by the University of Toronto, nor is it affiliated with the university. It was conducted during a user experience design course and, although it was not intended to reach production, our team learned several valuable lessons from the process:</p>
+                <ul className="list-disc ml-4 max-w-4xl space-y-4">
+                    <li><span className="font-medium bg-yellow-100 text-black">It is essential to empathize with the humans using a system.</span> Without empathy and understanding, we risk creating a system that ignores our users' needs and desires. We must always keep users in mind when designing a product.</li>
+                    <li><span className="font-medium bg-yellow-100 text-black">Design is an iterative process, and failure is inevitable.</span> The phrase "fail early, fail often" was a helpful reminder throughout our work, and we constantly learned from our mistakes to deliver a better product. This was especially true during usability testing, when our designs were challenged by our users' mental models. We must embrace these shortcomings and recognize that they provide learning opportunities.</li>
+                    <li><span className="font-medium bg-yellow-100 text-black">Usability testing helps identify pain points in a system.</span> Even if you can only test with a few users, the process provides valuable feedback that can inform future design decisions.</li>
+                    <li><span className="font-medium bg-yellow-100 text-black">Our idea is not the only solution.</span> When we pitched the project to our class and professor, we heard ideas and opinions that we hadn't considered. This is a reminder that our peers and clients can provide valuable insights into a project, and we should be open to hearing their feedback.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </Layout>
+)
+
+/**
+ * Head export to define metadata for the page
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
+ */
+export const Head = ({ location }) => <Seo title="Study Rooms @ UofT" location={location} image={MetaImage}/>
+
+export default StudyRoomsPage
