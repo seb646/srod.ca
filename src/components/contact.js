@@ -5,11 +5,6 @@ const Contact = () => {
     <div className="bg-neutral-100 md:rounded-2xl p-10 xl:p-32">
         <div className="mx-auto max-w-5xl">
             <h2 className="text-center mb-10 xl:mb-16 leading-tight text-4xl xl:text-5xl font-semibold">Interested in working together?</h2>
-            <div className="bg-white rounded-2xl p-14 xl:p-24 flex flex-col items-center justify-center text-center mb-5">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.25" stroke="currentColor" className="w-16 h-16 xl:w-24 xl:h-24 text-green-500 mb-3"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <p className="font-semibold text-3xl xl:text-4xl mb-3">Open to new opportunities</p>
-              <p className="xl:max-w-xl">Currently seeking internships for Summer 2023, but I'm also open to part-time and freelance work. </p>
-            </div>
             <div className="grid xl:grid-cols-3 gap-5">
               <div className="bg-white rounded-2xl p-14 xl:p-16 flex flex-col items-center justify-center text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" className="w-16 h-16 text-purple-500 mb-3"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>

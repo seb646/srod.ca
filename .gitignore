@@ -3,3 +3,4 @@ node_modules/
 public/assets/scripts/captcha.php
 .cache/
 public/
+package-lock.json

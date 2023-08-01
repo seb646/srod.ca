@@ -10,7 +10,7 @@
     --color-standard: #a5abbb;
     /* --highlight: #3d85c6; */
     /* --highlight: #2563eb; */
-    --highlight: #238ae4;
+    --highlight: #0e6fab;
 }
 
 *{
@@ -30,7 +30,16 @@
     border-color: var(--highlight);
 }
 .hover\:bg-highlight\/80:hover {
-    background-color: rgba(35, 138, 228, 0.85) !important
+    background-color: rgba(14,111,171,0.85) !important
+}
+h1 .leading-115,
+.leading-115 {
+    line-height: 1.15 !important;
+}
+@media (min-width: 1024px){
+h1.lg\:text-5xl {
+    line-height: 1.15 !important;
+}
 }
 .logo{
     /* font-family: "Playfair Display", serif; */
@@ -53,8 +62,12 @@
     padding-top: 84.5px;
 }
 main.is-grey,
-footer.is-grey{
-    background-color: rgb(245 245 245);
+footer.is-grey,
+.bg-grey{
+    background-color: rgba(243,243,243,1);
+}
+nav.is-grey{
+    background-color: rgba(243,243,243,0.9);  
 }
 nav{
     backdrop-filter: blur(16px) saturate(125%);
@@ -95,9 +108,6 @@ nav.is-visible {
     opacity: 1;
     -webkit-transform: translate(0,0);
     transition: .3s ease;
-}
-nav.is-grey{
-    background-color: rgb(245 245 245 / 90%);
 }
 .mobile-nav-links.is-grey{
     background-color: rgb(245 245 245);
@@ -164,7 +174,7 @@ footer.is-dark a:hover{
 .will-change-transform{
     will-change: transform;
 }
-.work-img{
+.research-img{
     max-height: 600px;
 }
 
@@ -204,8 +214,12 @@ footer.is-dark a:hover{
     background-color: #020122;
 }
 
+.bg-beige{
+    background-color: #eeece1;
+}
+
 .bg-royal-blue{
-    background-color: #44638e;
+    background-color: #0e6fab;
 }
 
 .bg-section{

@@ -2,13 +2,11 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { useDetectScroll } from "@smakss/react-scroll-direction";
 
-import Resume from '../files/Sebastian_Rodriguez_Resume.pdf' 
-
 const Nav = ({ location }) => {
   const [scrollDir] = useDetectScroll({});
   const [navbarOpen, setNavbarOpen] = React.useState(false)
   return (
-      <nav className={`${scrollDir === "still" ? "is-visible" : scrollDir === "up" ? "is-visible" : "is-hidden"} ${location && location.pathname === "/work/" ? "is-grey" : ""}`}>
+      <nav className={`${scrollDir === "still" ? "is-visible" : scrollDir === "up" ? "is-visible" : "is-hidden"} ${location && location.pathname === "/research/" ? "is-grey" : ""}`}>
         <div className="mx-auto max-w-full px-10 md:px-20 2xl:px-32 py-6">
           <div className="nav-fixed-height flex mx-auto max-w-5xl justify-between items-center">
             <div>
@@ -16,9 +14,9 @@ const Nav = ({ location }) => {
             </div>
             <div className="hidden sm:block">
               <ul className="nav-links flex flex-row space-x-8">
-                <li><Link to="/work" getProps={({ isPartiallyCurrent }) => isPartiallyCurrent ? { className: "active" } : null}>Work</Link></li>
                 <li><Link to="/about" activeClassName="active">About</Link></li>
-                <li><a href="https://assets.srod.ca/files/Sebastian_Rodriguez_resume.pdf">Resume</a></li>
+                <li><Link to="/research" getProps={({ isPartiallyCurrent }) => isPartiallyCurrent ? { className: "active" } : null}>Research</Link></li>
+                <li><a href="https://assets.srod.ca/files/Sebastian_Rodriguez_CV.pdf">CV</a></li>
                 <li><Link to="/contact" activeClassName="active">Contact</Link></li>
               </ul>
             </div>
@@ -40,8 +38,8 @@ const Nav = ({ location }) => {
           </div>
         </div>
         {navbarOpen ? (
-          <div className={`block sm:hidden mobile-nav-links shadow-lg flex flex-col border-t divide-y  ${scrollDir === "still" ? "is-visible" : scrollDir === "up" ? "is-visible" : "is-hidden"} ${location && location.pathname === "/work/" ? "is-grey border-neutral-400 divide-neutral-400" : "bg-white border-neutral-400 divide-neutral-400"}`}>
-            <Link to="/work" getProps={({ isPartiallyCurrent }) => isPartiallyCurrent ? { className: "active block px-10 py-3" } : { className: "block px-10 py-3" } }>Work</Link>
+          <div className={`block sm:hidden mobile-nav-links shadow-lg flex flex-col border-t divide-y  ${scrollDir === "still" ? "is-visible" : scrollDir === "up" ? "is-visible" : "is-hidden"} ${location && location.pathname === "/research/" ? "is-grey border-neutral-400 divide-neutral-400" : "bg-white border-neutral-400 divide-neutral-400"}`}>
+            <Link to="/research" getProps={({ isPartiallyCurrent }) => isPartiallyCurrent ? { className: "active block px-10 py-3" } : { className: "block px-10 py-3" } }>Research</Link>
             <Link to="/about" className="block px-10 py-3" activeClassName="active">About</Link>
             <a href="https://assets.srod.ca/files/Sebastian_Rodriguez_resume.pdf" className="block px-10 py-3">Resume</a>
             <Link to="/contact" className="block px-10 py-3" activeClassName="active">Contact</Link>
