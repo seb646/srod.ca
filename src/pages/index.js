@@ -19,9 +19,9 @@ const IndexPage = ({ location }) => (
               <Link to="/about" className="shrink-0 rounded-full bg-highlight px-6 py-4 text-white font-semibold text-base hover:bg-highlight/80 transition-colors duration-300">
                 Learn about me
               </Link>
-              <Link to="/research" className="rounded-full font-medium text-base text-highlight hover:underline w-full group">
+              <Link to="/work" className="rounded-full font-medium text-base text-highlight hover:underline w-full group">
                 <div className="flex items-center justify-center sm:justify-start">
-                View my research
+                View my work
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="4" stroke="currentColor" className="w-4 h-4 ml-1 group-hover:ml-2 transition-all duration-300">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                 </svg>
@@ -43,7 +43,7 @@ const IndexPage = ({ location }) => (
                 <div className="overflow-hidden w-full col-span-3 relative">
                   <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                   <StaticImage
-                    src="../images/research/ai-pedagogy.png"
+                    src="../images/work/ai-pedagogy.png"
                     loading="eager"
                     formats={["auto", "webp", "avif"]}
                     alt=""
@@ -52,7 +52,7 @@ const IndexPage = ({ location }) => (
                 </div>
                 <div className="col-span-2 flex flex-col space-y-3 sm:space-y-0 sm:justify-between p-8 sm:p-10">
                   <div>
-                    <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-3">Academic research</p>
+                    <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-3">Research project</p>
                     <p className="font-semibold text-xl lg:text-3xl leading-tight">Helping teachers critically, ethically, & responsibly bring AI into classrooms</p>
                   </div>
                   <div>
@@ -61,11 +61,11 @@ const IndexPage = ({ location }) => (
                 </div>
             </a>
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 mt-8 sm:mt-10">
-            <Link to="/research/learn-from-failure" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
+            <Link to="/work/learn-from-failure" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
                   <div className="overflow-hidden w-full relative">
                     <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                     <StaticImage
-                      src="../images/research/flip.png"
+                      src="../images/work/flip.png"
                       loading="eager"
                       formats={["auto", "webp", "avif"]}
                       alt=""
@@ -74,7 +74,7 @@ const IndexPage = ({ location }) => (
                   </div>
                   <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
                     <div>
-                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Academic research</p>
+                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Research project</p>
                       <p className="font-semibold text-xl mb-1 leading-tight sm:leading-normal">Teaching students to embrace, learn and bounce back from failure</p>
                     </div>
                     <div>
@@ -82,11 +82,11 @@ const IndexPage = ({ location }) => (
                     </div>
                   </div>
               </Link>
-              <Link to="/research/deceptive-design" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
+              <Link to="/work/deceptive-design" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
                   <div className="overflow-hidden w-full relative">
                     <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                     <StaticImage
-                      src="../images/research/deceptive-design.png"
+                      src="../images/work/deceptive-design.png"
                       loading="eager"
                       formats={["auto", "webp", "avif"]}
                       alt=""
@@ -95,7 +95,7 @@ const IndexPage = ({ location }) => (
                   </div>
                   <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
                     <div>
-                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Academic research</p>
+                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Research project</p>
                       <p className="font-semibold text-xl mb-1 leading-tight sm:leading-normal">Teaching students to recognize and contextualize deceptive design</p>
                     </div>
                     <div>
@@ -105,9 +105,9 @@ const IndexPage = ({ location }) => (
               </Link>
             </div>
             <div className="flex items-center justify-center mt-10 lg:mt-16">
-              <Link to="/research" className="rounded-full bg-white/10 px-6 py-4 text-white font-semibold text-lg hover:bg-white/20 transition-colors duration-300">
+              <Link to="/work" className="rounded-full bg-white/10 px-6 py-4 text-white font-semibold text-lg hover:bg-white/20 transition-colors duration-300">
                 <div className="flex items-center">
-                View my research
+                View my work
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="4" stroke="currentColor" className="w-4 h-4 ml-1">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                 </svg>
@@ -184,7 +184,7 @@ const IndexPage = ({ location }) => (
 
             </div>
             <div className="flex items-center justify-center mt-10 lg:mt-16">
-              <Link to="/about#skills" className="rounded-full bg-white/10 px-6 py-4 text-white font-semibold text-lg hover:bg-white/20 transition-colors duration-300">
+              <Link to="/about" className="rounded-full bg-white/10 px-6 py-4 text-white font-semibold text-lg hover:bg-white/20 transition-colors duration-300">
                 <div className="flex items-center">
                 Learn about me
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="4" stroke="currentColor" className="w-4 h-4 ml-1">

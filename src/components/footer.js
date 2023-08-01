@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const Footer = ({ location }) => {
   return (
-    <footer className={`mx-auto max-w-full px-10 xl:px-32 py-10 text-lg ${location && location.pathname === "/research/" ? "is-grey text-neutral-500" : "text-neutral-500"}`}>
+    <footer className={`mx-auto max-w-full px-10 xl:px-32 py-10 text-lg ${location && location.pathname === "/work/" ? "is-grey text-neutral-500" : "text-neutral-500"}`}>
         <div className="mx-auto max-w-5xl flex flex-col xl:flex-row justify-between xl:items-center space-y-6 xl:space-y-0">
             <div className="space-y-2">
                 <p>© Sebastian Rodriguez &middot;  {new Date().getFullYear()}</p>

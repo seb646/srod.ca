@@ -5,7 +5,7 @@ import Nav from "../../components/nav"
 import Footer from "../../components/footer"
 import Seo from "../../components/seo"
 
-import MetaImage from "../../images/research/dining-halls.png"
+import MetaImage from "../../images/work/dining-halls.png"
 
 const CheckoutUtmPage = ({ location }) => (
     <>
@@ -42,9 +42,9 @@ const CheckoutUtmPage = ({ location }) => (
                 </div>
             </div>
             <div className="max-w-6xl mx-auto pb-20 relative">
-                <div className="research-img overflow-hidden border border-neutral-200 sm:rounded-3xl flex items-center justify-center mb-4 relative will-change-transform">
+                <div className="research-img overflow-hidden sm:rounded-3xl flex items-center justify-center mb-4 relative will-change-transform">
                     <StaticImage
-                        src="../../images/research/dining-halls.png"
+                        src="../../images/work/dining-halls.png"
                         loading="eager"
                         formats={["auto", "webp", "avif"]}
                         alt=""
@@ -141,7 +141,7 @@ const CheckoutUtmPage = ({ location }) => (
                     <p>The prototype saw two major iterations: a makeshift cardboard box with a laptop situated atop and an all-cardboard design replicating a traditional self-checkout kiosk. The initial design allowed us to test and experiment with the digital interface, while the second design sought to provide a holistic view of the system.</p>
                     <p>Prototyping the digital design began with sketching, moved to low-fidelity wireframes, and ended with mockup prototypes.</p>
                     <StaticImage
-                        src="../../images/research/dining-halls-ui.png"
+                        src="../../images/work/dining-halls-ui.png"
                         loading="eager"
                         formats={["auto", "webp", "avif"]}
                         alt=""

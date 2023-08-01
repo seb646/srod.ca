@@ -5,9 +5,9 @@ import Nav from "../../components/nav"
 import Footer from "../../components/footer"
 import Seo from "../../components/seo"
 
-import MetaImage from '../../images/research/study-rooms.png' 
-import Starbursting from '../../images/research/study-rooms-starbursting.png' 
-import RoundRobin from '../../images/research/study-rooms-round-robin.png' 
+import MetaImage from '../../images/work/study-rooms.png' 
+import Starbursting from '../../images/work/study-rooms-starbursting.png' 
+import RoundRobin from '../../images/work/study-rooms-round-robin.png' 
 
 const StudyRoomsPage = ({ location }) => (
     <>
@@ -44,9 +44,9 @@ const StudyRoomsPage = ({ location }) => (
                 </div>
             </div>
             <div className="max-w-6xl mx-auto pb-20 relative">
-                <div className="research-img overflow-hidden border border-neutral-200 sm:rounded-3xl flex items-center justify-center mb-4 relative will-change-transform">
+                <div className="research-img overflow-hidden sm:rounded-3xl flex items-center justify-center mb-4 relative will-change-transform">
                     <StaticImage
-                        src="../../images/research/study-rooms.png"
+                        src="../../images/work/study-rooms.png"
                         loading="eager"
                         formats={["auto", "webp", "avif"]}
                         alt=""
@@ -55,7 +55,7 @@ const StudyRoomsPage = ({ location }) => (
                 </div>
                 <div className="max-w-4xl px-10 md:px-0 mx-auto flex flex-col md:flex-row justify-between space-y-3 md:space-y-0">
                     <p className="text-sm text-neutral-500">A study area in the University of Toronto's Robarts Common building.</p>
-                    <p className="text-sm text-neutral-500 md:text-right">Photo by <a className="font-medium" href="https://smithandandersen.com/research/university-toronto-robarts-common">Smith + Anderson</a></p>
+                    <p className="text-sm text-neutral-500 md:text-right">Photo by <a className="font-medium" href="https://smithandandersen.com/work/university-toronto-robarts-common">Smith + Anderson</a></p>
                 </div>
             </div>
             <div className="max-w-full px-10 md:px-20 xl:px-32 space-y-20 relative mb-10">
@@ -129,11 +129,11 @@ const StudyRoomsPage = ({ location }) => (
                     </div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-10">
-                    <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+                    <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-50 p-10">
                         <h2 className="font-semibold text-lg sm:text-xl mb-6">Starbursting Ideation</h2>
                         <a href={Starbursting}>
                         <StaticImage
-                            src="../../images/research/study-rooms-starbursting.png"
+                            src="../../images/work/study-rooms-starbursting.png"
                             loading="eager"
                             formats={["auto", "webp", "avif"]}
                             alt=""
@@ -141,11 +141,11 @@ const StudyRoomsPage = ({ location }) => (
                         />
                     </a>
                     </div>
-                    <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-100 p-10">
+                    <div className="max-w-5xl mx-auto rounded-2xl bg-neutral-50 p-10">
                         <h2 className="font-semibold text-lg sm:text-xl mb-6">Round Robin Ideation</h2>
                         <a href={RoundRobin}>
                             <StaticImage
-                                src="../../images/research/study-rooms-round-robin.png"
+                                src="../../images/work/study-rooms-round-robin.png"
                                 loading="eager"
                                 formats={["auto", "webp", "avif"]}
                                 alt=""
@@ -165,7 +165,7 @@ const StudyRoomsPage = ({ location }) => (
                 <div className="max-w-4xl mx-auto">
                     <h2 className="font-semibold text-lg sm:text-xl mb-4">Outcome</h2>
                     <div className="space-y-4 sm:text-lg text-neutral-600">
-                        <p>This was not an official study commissioned by the University of Toronto, nor is it affiliated with the university. It was conducted during a user experience design course and, although it was not intended to reach production, our team learned several valuable lessons from the process:</p>
+                        <p>This was not an official study commissioned by the University of Toronto, nor is it directly affiliated with the university. It was conducted during a user experience design course and, although it was not intended to reach production, our team learned several valuable lessons from the process:</p>
                         <ul className="list-disc ml-4 max-w-4xl space-y-4">
                             <li><span className="font-semibold text-black">It is essential to empathize with the humans using a system.</span> Without empathy and understanding, we risk creating a system that ignores our users' needs and desires. We must always keep users in mind when designing a product.</li>
                             <li><span className="font-semibold text-black">Design is an iterative process, and failure is inevitable.</span> The phrase "fail early, fail often" was a helpful reminder throughout our research, and we constantly learned from our mistakes to deliver a better product. This was especially true during usability testing, when our designs were challenged by our users' mental models. We must embrace these shortcomings and recognize that they provide learning opportunities.</li>

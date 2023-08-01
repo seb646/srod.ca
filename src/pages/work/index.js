@@ -13,12 +13,12 @@ const researchPage = ({ location }) => {
       <main className="pt-nav is-grey">
         <div className="max-w-full px-10 md:px-20 xl:px-32 space-y-24 pb-6">
           <div className="mx-auto max-w-5xl py-8">
-            <h1 className="mt-10 mb-6 text-3xl">Research</h1>
+            <h1 className="mt-10 mb-6 text-3xl">Work</h1>
             <a href="https://aipedagogy.org" className="block cursor-pointer bg-white group grid lg:grid-cols-5 overflow-hidden rounded-2xl relative will-change-transform">
                 <div className="overflow-hidden w-full col-span-3 relative">
                   <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                   <StaticImage
-                    src="../../images/research/ai-pedagogy.png"
+                    src="../../images/work/ai-pedagogy.png"
                     loading="eager"
                     formats={["auto", "webp", "avif"]}
                     alt=""
@@ -27,7 +27,7 @@ const researchPage = ({ location }) => {
                 </div>
                 <div className="col-span-2 flex flex-col space-y-3 sm:space-y-0 sm:justify-between p-8 sm:p-10">
                   <div>
-                    <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-3">Academic research</p>
+                    <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-3">Research project</p>
                     <p className="font-semibold text-xl lg:text-3xl leading-tight">Helping teachers critically, ethically, & responsibly bring AI into classrooms</p>
                   </div>
                   <div>
@@ -40,7 +40,7 @@ const researchPage = ({ location }) => {
                   <div className="overflow-hidden w-full relative">
                     <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                     <StaticImage
-                      src="../../images/research/geography-of-terror.png"
+                      src="../../images/work/geography-of-terror.png"
                       loading="eager"
                       formats={["auto", "webp", "avif"]}
                       alt=""
@@ -49,7 +49,7 @@ const researchPage = ({ location }) => {
                   </div>
                   <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
                     <div>
-                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Academic research</p>
+                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Research project</p>
                       <p className="font-semibold text-xl mb-1 leading-tight">Mapping domestic private military deployment in the United States</p>
                     </div>
                     <div>
@@ -57,11 +57,11 @@ const researchPage = ({ location }) => {
                     </div>
                   </div>
               </div>
-              <Link to="/research/learn-from-failure" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
+              <Link to="/work/learn-from-failure" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
                   <div className="overflow-hidden w-full relative">
                     <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                     <StaticImage
-                      src="../../images/research/flip.png"
+                      src="../../images/work/flip.png"
                       loading="eager"
                       formats={["auto", "webp", "avif"]}
                       alt=""
@@ -70,7 +70,7 @@ const researchPage = ({ location }) => {
                   </div>
                   <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
                     <div>
-                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Academic research</p>
+                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Research project</p>
                       <p className="font-semibold text-xl mb-1 leading-tight">Teaching students to embrace, learn and bounce back from failure</p>
                     </div>
                     <div>
@@ -78,11 +78,11 @@ const researchPage = ({ location }) => {
                     </div>
                   </div>
               </Link>
-              <Link to="/research/deceptive-design" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
+              <a href="https://kmdi.utoronto.ca" className="block bg-white rounded-2xl overflow-hidden group relative will-change-transform">
                   <div className="overflow-hidden w-full relative">
                     <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                     <StaticImage
-                      src="../../images/research/deceptive-design.png"
+                      src="../../images/work/kmdi.png"
                       loading="eager"
                       formats={["auto", "webp", "avif"]}
                       alt=""
@@ -91,7 +91,28 @@ const researchPage = ({ location }) => {
                   </div>
                   <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
                     <div>
-                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Academic research</p>
+                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Web development</p>
+                      <p className="font-semibold text-xl mb-1 leading-tight">Redesigning the Knowledge Media Design Institute's website</p>
+                    </div>
+                    <div>
+                      <p className="text-gray-500 text-sm font-medium">University of Toronto &bull; 2023</p>
+                    </div>
+                  </div>
+              </a>
+              <Link to="/work/deceptive-design" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
+                  <div className="overflow-hidden w-full relative">
+                    <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
+                    <StaticImage
+                      src="../../images/work/deceptive-design.png"
+                      loading="eager"
+                      formats={["auto", "webp", "avif"]}
+                      alt=""
+                      className="group-hover:scale-105 transition-all duration-300"
+                    />
+                  </div>
+                  <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
+                    <div>
+                      <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Research project</p>
                       <p className="font-semibold text-xl mb-1 leading-tight">Teaching students to recognize and contextualize deceptive design</p>
                     </div>
                     <div>
@@ -103,7 +124,7 @@ const researchPage = ({ location }) => {
                   <div className="overflow-hidden w-full relative">
                     <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                     <StaticImage
-                      src="../../images/research/mass-surveillance.png"
+                      src="../../images/work/mass-surveillance.png"
                       loading="eager"
                       formats={["auto", "webp", "avif"]}
                       alt=""
@@ -113,18 +134,18 @@ const researchPage = ({ location }) => {
                   <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
                     <div>
                       <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Research article</p>
-                      <p className="font-semibold text-xl mb-1 leading-tight">The United States of Surveillance: A Review of America's Mass Surveillance</p>
+                      <p className="font-semibold text-xl mb-1 leading-tight">The United States of Surveillance: A Review of America's Mass Surveillance Laws...</p>
                     </div>
                     <div>
                       <p className="text-gray-500 text-sm font-medium">IDEAH, Vol. 3, Iss. 2 &bull; 2022</p>
                     </div>
                   </div>
               </a>
-              <Link to="/research/study-rooms" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
+              <Link to="/work/study-rooms" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
                   <div className="overflow-hidden w-full relative">
                     <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                     <StaticImage
-                      src="../../images/research/study-rooms.png"
+                      src="../../images/work/study-rooms.png"
                       loading="eager"
                       formats={["auto", "webp", "avif"]}
                       alt=""
@@ -134,18 +155,18 @@ const researchPage = ({ location }) => {
                   <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
                     <div>
                       <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">User research</p>
-                      <p className="font-semibold text-xl mb-1 leading-tight">Centralizing study room booking at the University of Toronto</p>
+                      <p className="font-semibold text-xl mb-1 leading-tight">Centralizing study room booking at the University of Toronto's libraries</p>
                     </div>
                     <div>
                       <p className="text-gray-500 text-sm font-medium">University of Toronto &bull; 2022</p>
                     </div>
                   </div>
               </Link>
-              <Link to="/research/dining-hall-checkout" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
+              <Link to="/work/dining-hall-checkout" className="block cursor-pointer bg-white rounded-2xl overflow-hidden group relative will-change-transform">
                   <div className="overflow-hidden w-full relative">
                     <div className="h-full w-full absolute z-10 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
                     <StaticImage
-                      src="../../images/research/dining-halls.png"
+                      src="../../images/work/dining-halls.png"
                       loading="eager"
                       formats={["auto", "webp", "avif"]}
                       alt=""

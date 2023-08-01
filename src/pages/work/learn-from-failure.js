@@ -5,7 +5,7 @@ import Nav from "../../components/nav"
 import Footer from "../../components/footer"
 import Seo from "../../components/seo"
 
-import MetaImage from "../../images/research/flip.png"
+import MetaImage from "../../images/work/flip.png"
 
 const FailureLearningPage = ({ location }) => (
     <>
@@ -52,9 +52,9 @@ const FailureLearningPage = ({ location }) => (
                 </div>
             </div>
             <div className="max-w-6xl mx-auto pb-20 space-y-10 relative">
-                <div className="research-img overflow-hidden border border-neutral-200 sm:rounded-3xl flex items-center justify-center relative will-change-transform">
+                <div className="research-img overflow-hidden sm:rounded-3xl flex items-center justify-center relative will-change-transform">
                     <StaticImage
-                        src="../../images/research/flip.png"
+                        src="../../images/work/flip.png"
                         loading="eager"
                         formats={["auto", "webp", "avif"]}
                         alt=""
