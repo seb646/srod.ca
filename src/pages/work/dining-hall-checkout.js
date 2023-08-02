@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Nav from "../../components/nav"
@@ -12,11 +13,18 @@ const CheckoutUtmPage = ({ location }) => (
         <Nav location={location} />
         <main className="pt-nav">
             <div className="max-w-full px-10 md:px-20 xl:px-32 py-20">
-                <div className="max-w-4xl mx-auto mb-10">
+                <div className="max-w-5xl mx-auto mb-10">
+                    <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-6 space-x-2 flex items-center">
+                        <Link to="/work">Work</Link>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+                        <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                        </svg>
+                        <span>User research</span>
+                    </p>
                     <h1 className="mb-6 text-3xl xl:text-5xl font-bold text-slate-700">Implementing self-checkouts at the University of Toronto's dining halls</h1>
                     <p className="text-xl text-neutral-600 mx-auto">The University of Toronto Mississauga's three dining halls serve nearly 15,000 students daily, yet students face many challenges when purchasing their food. Wait times are long, lines are confusing, and checkout stations are understaffed. We aimed to understand student's frustrations while at a dining hall, and designed a new self-checkout system to create a more efficent experience. </p>
                 </div>
-                <div className="max-w-4xl mx-auto">
+                <div className="max-w-5xl mx-auto">
                     <div className="flex flex-col md:flex-row justify-between text-neutral-600 space-y-6 md:space-y-0">
                         <div>
                             <p className="font-medium text-black mb-2">Role</p>

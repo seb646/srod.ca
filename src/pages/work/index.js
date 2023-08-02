@@ -6,7 +6,7 @@ import Nav from "../../components/nav"
 import Footer from "../../components/footer"
 import Seo from "../../components/seo"
 
-const researchPage = ({ location }) => {
+const workPage = ({ location }) => {
   return (
     <>
       <Nav location={location} />
@@ -191,7 +191,7 @@ const researchPage = ({ location }) => {
     </>
   )
 }
-export const Head = ({ location }) => <Seo title="Research" location={location}/>
+export const Head = ({ location }) => <Seo title="Work" location={location}/>
 
 // export const query = graphql`
 //   query Banner{
@@ -205,4 +205,4 @@ export const Head = ({ location }) => <Seo title="Research" location={location}/
 //   }
 // `
 
-export default researchPage
+export default workPage
