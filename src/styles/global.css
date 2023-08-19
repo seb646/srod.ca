@@ -83,22 +83,6 @@ nav{
 nav .nav-fixed-height{
     height: 39px;
 }
-nav.is-dark{
-    background-color: rgba(0, 27, 46,0.9);
-}
-nav.is-dark .logo{
-    color: #fff;
-}
-nav.is-dark .nav-links a{
-    color: rgb(212 212 212);
-}
-nav.is-dark .nav-links a:hover,
-nav.is-dark .nav-links a.active{
-    color: #fff;
-}
-.mobile-nav-links.is-dark{
-    background-color: rgb(0, 27, 46);
-}
 nav.is-hidden {
     opacity: 0;
     -webkit-transform: translate(0,-60px);
@@ -114,21 +98,18 @@ nav.is-visible {
 }
 .nav-links a{
     color: #666;
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: .5px;
     text-transform: uppercase;
     font-weight: 500;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: color 0.2s;
 }
-
-.mobile-nav-links.is-dark a{
-    color: rgb(212 212 212);
-}
-
 .nav-links a:hover,
 .nav-links a.active{
     color: #000;
+    transition: color 0.2s;
 }
 
 h1{
@@ -256,4 +237,10 @@ footer.is-dark a:hover{
 
 .bg-ivory{
     background-color: #F9FBF2;
+}
+
+@media (min-width: 1280px){
+    h1.xl\:text-5xl {
+        line-height: 1.15 !important;
+    }
 }
