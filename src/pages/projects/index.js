@@ -50,7 +50,7 @@ const workPage = ({ location }) => {
                   <div className="col-span-2 flex flex-col space-y-3 sm:space-y-2 sm:justify-between p-8">
                     <div>
                       <p className="text-xs font-semibold tracking-wide uppercase text-gray-500 mb-2">Research</p>
-                      <p className="font-semibold text-xl mb-1">Visualizing domestic private military deployment in the United States</p>
+                      <p className="font-semibold text-xl mb-1">Examining the role of private military in U.S. policing, immigration, and prosecution</p>
                     </div>
                     <div>
                       <p className="text-gray-500 text-sm font-medium">University of Toronto &bull; Coming Soon</p>
