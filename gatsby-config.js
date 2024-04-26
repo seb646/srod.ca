@@ -47,6 +47,16 @@ module.exports = {
         includeInDevelopment: false,
       },
     },
-
+    {
+      resolve: `gatsby-plugin-umami`,
+      options: {
+        websiteId: "86dbe8c7-0bed-488b-9a2d-a6287e5db94d",
+        srcUrl: "https://analytics.srod.ca/script.js",
+        includeInDevelopment: false,
+        autoTrack: true,
+        respectDoNotTrack: true,
+        dataCache: false,
+      },
+    },
   ],
 }

@@ -13,6 +13,7 @@
     "gatsby-plugin-layout": "^4.4.0",
     "gatsby-plugin-manifest": "^5.2.0",
     "gatsby-plugin-sharp": "^5.2.0",
+    "gatsby-plugin-umami": "^0.1.5",
     "gatsby-source-filesystem": "^5.2.0",
     "gatsby-transformer-sharp": "^5.2.0",
     "react": "^18.2.0",

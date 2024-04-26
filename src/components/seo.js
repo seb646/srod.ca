@@ -53,8 +53,6 @@ function Seo({ description, title, children, location, image }) {
       <meta name="robots" content="index, archive" />
 	    <meta name="googlebot" content="index, archive" />
 
-      <script defer src="https://analytics.srod.ca/script.js" data-website-id="86dbe8c7-0bed-488b-9a2d-a6287e5db94d"></script>
-
       {children}
     </>
   )
