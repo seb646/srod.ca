@@ -53,6 +53,8 @@ function Seo({ description, title, children, location, image }) {
       <meta name="robots" content="index, archive" />
 	    <meta name="googlebot" content="index, archive" />
 
+      <script defer src="https://analytics.eu.umami.is/script.js" data-website-id="d52c7a9a-f16e-49da-a6b3-8f43bdfd975c"></script>
+
       {children}
     </>
   )
