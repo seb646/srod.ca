@@ -1,50 +1,35 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "srod.ca",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "seed": "sanity dataset import seed/content.ndjson production --missing",
+    "typecheck": "tsc --noEmit",
+    "sanity": "sanity"
+  },
   "dependencies": {
-    "@smakss/react-scroll-direction": "^1.0.1",
-    "gatsby": "^5.11.0",
-    "gatsby-omni-font-loader": "^2.0.2",
-    "gatsby-plugin-google-tagmanager": "^5.5.0",
-    "gatsby-plugin-image": "^3.2.0",
-    "gatsby-plugin-layout": "^4.4.0",
-    "gatsby-plugin-manifest": "^5.2.0",
-    "gatsby-plugin-sharp": "^5.2.0",
-    "gatsby-plugin-umami": "^0.1.5",
-    "gatsby-source-filesystem": "^5.2.0",
-    "gatsby-transformer-sharp": "^5.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0"
+    "@heroicons/react": "^2.2.0",
+    "@sanity/icons": "^5.2.3",
+    "@sanity/image-url": "^2.1.1",
+    "@sanity/vision": "^6.17.0",
+    "next": "16.3.8",
+    "next-sanity": "^13.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "resend": "^6.32.0",
+    "sanity": "^6.17.0",
+    "styled-components": "^6.5.3"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "gatsby-plugin-postcss": "^6.2.0",
-    "postcss": "^8.4.19",
-    "prettier": "^2.8.0",
-    "tailwindcss": "^3.2.4"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "typescript": "^5"
   }
 }
