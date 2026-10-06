@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { stegaClean } from "next-sanity";
 import Link from "next/link";
-import { ArrowDownTrayIcon, ArrowRightIcon } from "@heroicons/react/16/solid";
+import { ArrowRightIcon } from "@heroicons/react/16/solid";
+import { DownloadIcon } from "@/components/DownloadIcon";
 import { sanityFetch } from "@/sanity/lib/live";
 import { getSettings } from "@/sanity/lib/fetch";
 import { ABOUT_QUERY } from "@/sanity/lib/queries";
@@ -101,9 +101,9 @@ export default async function AboutPage() {
         )}
         <div className="actions">
           {settings?.cvUrl && (
-            <a href={`${settings.cvUrl}?dl=${encodeURIComponent(`${stegaClean(settings.name) || "Sebastian Rodriguez"} CV.pdf`)}`} className="btn btn--solid">
+            <a href={settings.cvUrl} target="_blank" rel="noopener noreferrer" className="btn btn--solid">
               {about.cvLabel || "Download CV"}
-              <ArrowDownTrayIcon className="icon" aria-hidden />
+              <DownloadIcon />
             </a>
           )}
           <Link href="/contact" className="btn">

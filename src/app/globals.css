@@ -344,6 +344,23 @@ img {
 .btn:hover .icon {
   transform: translateX(2px);
 }
+/* Download: the tray stays put; the arrow floats above it and drops in on hover */
+.btn:hover .icon--download {
+  transform: none;
+}
+.icon--download {
+  overflow: visible;
+  /* the raised arrow makes the icon top-heavy; nudge it down to sit centred on the label */
+  translate: 0 1px;
+}
+.icon--download__arrow {
+  transform: translateY(-3px); /* tip clears the tray's rim */
+  transition: transform 0.25s var(--ease);
+}
+.btn:hover .icon--download__arrow,
+.btn:focus-visible .icon--download__arrow {
+  transform: translateY(0); /* settles in the tray, a hair above its floor */
+}
 .btn:active {
   transform: translateY(1px);
 }
